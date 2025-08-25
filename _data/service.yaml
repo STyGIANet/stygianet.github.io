@@ -1,0 +1,50 @@
+- venue: IEEE Transactions on Networking
+  type: Reviewer
+  tag: ToN
+  year: 2025
+  date: 2025-04
+- venue: IEEE Transactions on Network Service and Management
+  type: Reviewer
+  tag: TNSM
+  year: 2025
+  date: 2025-03
+- venue: USENIX NSDI
+  type: Pre-Review Task Force
+  tag: NSDI
+  year: 2025
+  date: 2025-01
+- venue: ACM SIGCOMM Poster/Demo Session
+  type: Program Committe, Reviewer
+  tag: SIGCOMM
+  year: 2024
+  date: 2024-08
+- venue: IEEE HSPR, NetAccel-AI Workshop
+  type: Program Committe, Reviewer
+  tag: NetAccel-AI
+  year: 2024
+  date: 2024-04
+- venue: IEEE Transactions on Networking
+  type: Reviewer
+  tag: ToN
+  year: 2024
+  date: 2024-01
+- venue: ACM SIGCOMM Poster/Demo Session
+  type: Program Committe, Reviewer
+  tag: SIGCOMM
+  year: 2023
+  date: 2023-09
+- venue: ACM SIGCOMM Poster/Demo Session
+  type: Program Committe, Reviewer
+  tag: SIGCOMM
+  year: 2022
+  date: 2022-09
+- venue: IEEE Transactions on Networking
+  type: Reviewer
+  tag: ToN
+  year: 2023
+  date: 2023-01
+- venue: IEEE Transactions on Network Service and Management
+  type: Reviewer
+  tag: TNSM
+  year: 2022
+  date: 2022-08

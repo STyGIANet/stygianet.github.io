@@ -1,0 +1,11 @@
+- name: People
+  link: people
+  quicklink: yes
+
+- name: Publications
+  link: publications-all
+  quicklink: yes
+
+- name: Teaching
+  link: teaching-service
+  quicklink: yes

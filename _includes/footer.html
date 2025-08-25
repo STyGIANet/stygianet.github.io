@@ -1,0 +1,89 @@
+<!--  -->
+<!--  -->
+<!--  -->
+
+<script src="/dist/js/jquery.js"></script>
+<script src="/dist/js/bootstrap.bundle.js"></script>
+
+<script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+<script>
+  function toggleDropdown (e) {
+  const _d = $(e.target).closest('.dropdown'),
+    _m = $('.dropdown-menu', _d);
+  setTimeout(function(){
+    const shouldOpen = e.type !== 'click' && _d.is(':hover');
+    _m.toggleClass('show', shouldOpen);
+    _d.toggleClass('show', shouldOpen);
+    $('[data-bs-toggle="dropdown"]', _d).attr('aria-expanded', shouldOpen);
+  }, e.type === 'mouseleave' ? 50 : 0);
+}
+
+$('body')
+  .on('mouseenter mouseleave','.dropdown',toggleDropdown)
+  .on('click', '.dropdown-menu a', toggleDropdown);
+</script>
+
+
+  <script>
+    const toggleButton = document.getElementById('toggleTheme');
+    toggleButton.addEventListener('click', () => {
+      const htmlElement = document.documentElement;
+      const currentTheme = htmlElement.getAttribute('data-bs-theme');
+      htmlElement.setAttribute('data-bs-theme', currentTheme === 'dark' ? 'light' : 'dark');
+    });
+  </script>
+
+  <script>
+const htmlEl   = document.documentElement;
+const themeToggle = document.getElementById("themeToggle");
+const themeIcon   = document.getElementById("themeIcon");
+const navbar      = document.getElementById("mainNavbar");
+
+function setTheme(theme) {
+  // set global theme on <html>
+  htmlEl.setAttribute("data-bs-theme", theme);
+  localStorage.setItem("theme", theme);
+
+  // set theme on navbar itself
+  // navbar.setAttribute("data-bs-theme", theme);
+
+  // flip icon
+  themeIcon.className = theme === "light" ? "bi bi-moon-fill" : "bi bi-sun-fill";
+
+  // flip navbar background
+  // if (theme === "dark") {
+  //   navbar.classList.remove("bg-light");
+  //   navbar.classList.add("bg-dark");
+  // } else {
+  //   navbar.classList.remove("bg-dark");
+  //   navbar.classList.add("bg-light");
+  // }
+}
+
+// Initialize theme (default dark)
+const savedTheme = localStorage.getItem("theme");
+if (savedTheme) {
+  setTheme(savedTheme);
+} else {
+  setTheme("dark");
+}
+
+// Toggle on button click
+themeToggle.addEventListener("click", () => {
+  const current = htmlEl.getAttribute("data-bs-theme");
+  setTheme(current === "light" ? "dark" : "light");
+});
+
+
+</script>
+
+
+<!--  Trying out animation for dropdown -->
+
+<br><br>

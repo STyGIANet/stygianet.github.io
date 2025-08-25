@@ -1,0 +1,45 @@
+#_data/navbar.yml
+- name: People
+  link: /people
+  quicklink: yes
+
+- name: Publications
+  drop:
+    - name: All
+      link: /publications-all
+      breakline: break
+      quicklink: yes
+    - name: By date
+      link: /publications-date
+    - name: By type
+      link: /publications-type
+
+- name: Courses
+  link: /courses
+  quicklink: yes
+
+- name: Service
+  link: /service
+  quicklink: yes
+
+- name: Projects
+  drop:
+    - name: Overview
+      link: /projects-overview
+      breakline: break
+      quicklink: yes
+    - name: Congestion Control
+      link: "#"
+    - name: Reconfigurable Networks
+      link: "#"
+    - name: Online Algorithms
+      link: "#"
+    - name: Buffer Management
+      link: "#"
+
+- name: Personal
+  drop:
+    - name: Favourite music
+      link: /favmusic
+
+# Remember: Use max 6 tabs. More tabs doesn't look well in small window sizes, some css problem.

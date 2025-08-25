@@ -1,0 +1,40 @@
+<nav id="mainNavbar" class="navbar navbar-expand-lg bg-info sticky-nav" data-bs-theme="dark">
+  <div class="container" style="max-width: 1080px;">
+    <a href="https://purdue.edu">
+      <img src="/images/purdue-logo.png" alt="STyGIANet logo" height="25"
+           class="d-inline-block align-middle me-5">
+    </a>
+    <a class="navbar-brand me-5" href="/">Home</a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+            aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="toggler-icon top-bar"></span>
+      <span class="toggler-icon middle-bar"></span>
+      <span class="toggler-icon bottom-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse collapse navbar-collapse mt-3 mt-lg-0" id="navbarColor02">
+      <ul class="navbar-nav me-auto">
+        {% for item in site.data.navbar %}
+          {% unless item.drop %}
+          <li class="nav-item"><a class="nav-link" href="{{item.link}}">{{item.name}}</a></li>
+          {% endunless %}
+          {% if item.drop %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+               aria-haspopup="true" aria-expanded="false">{{item.name}}</a>
+            <div class="dropdown-menu">
+              {% for dropitem in item.drop %}
+                <a class="dropdown-item" href="{{dropitem.link}}">{{dropitem.name}}</a>
+                {% if dropitem.breakline %}<div class="dropdown-divider"></div>{% endif %}
+              {% endfor %}
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <!-- Theme toggle with icon -->
+      <button id="themeToggle" class="btn btn-outline-dark btn-sm ms-3">
+        <i id="themeIcon" class="bi bi-sun-fill"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+<br>

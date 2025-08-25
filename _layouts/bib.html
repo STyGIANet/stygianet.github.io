@@ -1,0 +1,174 @@
+---
+---
+
+<div class="row mb-4">
+  <!-- Left Column: Tags -->
+  <div class="col-md-2">
+    {% if entry.tag %}
+      <span class="badge bg-primary rounded-pill">{{ entry.tag }}</span><br>
+    {% endif %}
+
+    {% if entry.award %}
+      <span class="badge bg-success rounded-pill">{{ entry.award }}</span><br>
+    {% endif %}
+
+    {% if entry.status == "review" %}
+      <span class="badge bg-dark rounded-pill">Under review</span><br>
+    {% endif %}
+
+    {% if entry.status == "arxiv" %}
+      <span class="badge bg-secondary rounded-pill">arXiv</span><br>
+    {% endif %}
+
+    {% if entry.group == "thesis" %}
+      <span class="badge bg-success rounded-pill" style="color: #000">{{ entry.thesis }}</span><br>
+    {% endif %}
+  </div>
+
+  <!-- Right Column: Main Content -->
+  <div class="col-md-10">
+    <strong>{{ entry.title }}</strong><br />
+
+    {% if entry.author %}
+      {{ reference }}<br />
+    {% endif %}
+
+    {% if entry.status == "review" %}
+      (Under Review)<br />
+    {% endif %}
+
+    {% if entry.type == "article" %}
+      {% if entry.journal %}
+        {{ entry.journal }},
+      {% endif %}
+      {% if entry.location %}
+        {{ entry.location }},
+      {% endif %}
+      {% if entry.year %}
+        {{ entry.year }}.
+      {% endif %}
+    {% endif %}
+
+    {% if entry.type == "inproceedings" %}
+      {% if entry.booktitle %}
+        {{ entry.booktitle }},
+      {% endif %}
+      {% if entry.location %}
+        {{ entry.location }},
+      {% endif %}
+      {% if entry.year %}
+        {{ entry.year }}.
+      {% endif %}
+    {% endif %}
+
+    {% if entry.type == "thesis" %}
+      {% if entry.supervisors %}
+        Supervisors: {{ entry.supervisors }}.<br>
+      {% endif %}
+      {% if entry.location %}
+        {{ entry.location }},
+      {% endif %}
+      {% if entry.month %}
+        {{ entry.month }},
+      {% endif %}
+      {% if entry.year %}
+        {{ entry.year }}.
+      {% endif %}
+    {% endif %}
+
+    {% if entry.type == "dissertation" %}
+      {% if entry.advisor %}
+        Advisor: {{ entry.advisor }}.<br>
+      {% endif %}
+      {% if entry.committee %}
+        Committee: {{ entry.committee }}.<br>
+      {% endif %}
+      {% if entry.location %}
+        {{ entry.location }},
+      {% endif %}
+      {% if entry.month %}
+        {{ entry.month }},
+      {% endif %}
+      {% if entry.year %}
+        {{ entry.year }}.
+      {% endif %}
+    {% endif %}
+
+    {% if entry.type == "techreport" %}
+      {% if entry.journal %}
+        {{ entry.journal }},
+      {% endif %}
+      {% if entry.location %}
+        {{ entry.location }},
+      {% endif %}
+      {% if entry.year %}
+        {{ entry.year }}.
+      {% endif %}
+    {% endif %}
+
+    <!-- Media Links -->
+    <br>
+    {% if entry.paper %}
+      <i class="bi bi-file-earmark-pdf"></i> <a href="{{ entry.paper }}"> PDF</a>&nbsp;
+    {% endif %}
+
+    {% if entry.slides %}
+      <i class="bi bi-file-earmark-slides"></i> <a href="{{ entry.slides }}"> Slides</a>&nbsp;
+    {% endif %}
+
+    {% if entry.poster %}
+      <i class="bi bi-file-earmark-pdf"></i> <a href="{{ entry.poster }}"> Poster</a>&nbsp;
+    {% endif %}
+
+    {% if entry.video %}
+      <i class="bi bi-camera-reels"></i><a href="{{ entry.video }}"> Video</a>&nbsp;
+    {% endif %}
+
+    {% if entry.videocontd %}
+      <i class="bi bi-camera-reels"></i> <a href="{{ entry.videocontd }}">Video-contd.</a>&nbsp;
+    {% endif %}
+
+    {% if entry.website %}
+      <i class="bi bi-globe"></i><a href="{{ entry.website }}"> Website</a>&nbsp;
+    {% endif %}
+
+    {% if entry.code %}
+      <i class="bi bi-github"></i> <a href="{{ entry.code }}"> Code</a>&nbsp;
+    {% endif %}
+
+    <!-- Abstract and BibTeX -->
+    {% if entry.abstract %}
+      <i class="bi bi-chat-square-text"></i>
+      <a data-bs-toggle="collapse" href="#abstract{{ entry.key }}"> Abstract</a>&nbsp;
+      <i class="bi bi-book"></i>
+      <a data-bs-toggle="collapse" href="#bibtex{{ entry.key }}"> BibTeX</a>
+
+      <div class="collapse" id="abstract{{ entry.key }}">
+        <div class="alert alert-dismissible alert-secondary">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          Click <a data-bs-toggle="collapse" href="#abstract{{ entry.key }}">here</a> to close the dropdown!
+        </div>
+        {{ entry.abstract }}
+      </div>
+
+      <div class="collapse" id="bibtex{{ entry.key }}">
+        <div class="alert alert-dismissible alert-secondary">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          Click <a data-bs-toggle="collapse" href="#bibtex{{ entry.key }}">here</a> to close the dropdown!
+        </div>
+        <pre>{{ entry.bibtex }}</pre>
+      </div>
+    {% else %}
+      <i class="bi bi-book"></i>
+      <a data-bs-toggle="collapse" href="#bibtex{{ entry.key }}">BibTeX</a>
+
+      <div class="collapse" id="bibtex{{ entry.key }}">
+        <div class="alert alert-dismissible alert-secondary">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          Click <a data-bs-toggle="collapse" href="#bibtex{{ entry.key }}">here</a> to close the dropdown!
+        </div>
+        <pre>{{ entry.bibtex }}</pre>
+      </div>
+    {% endif %}
+  </div>
+</div>

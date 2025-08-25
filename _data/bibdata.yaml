@@ -1,0 +1,42 @@
+################### Used for Grouping by Year ###################
+years:
+  - tag: 2025
+    name: 2025
+
+  - tag: 2024
+    name: 2024
+
+  - tag: 2023
+    name: 2023
+
+  - tag: 2022
+    name: 2022
+
+  - tag: 2021
+    name: 2021
+
+  - tag: 2020
+    name: 2020
+
+  - tag: 2018
+    name: 2018
+
+  - tag: 2017
+    name: 2017
+
+################### Used for Grouping by Type ###################
+types:
+  # - tag: journal
+  #   name: Journal Articles
+
+  - tag: conference_workshop
+    name: Conference or Workshop Proceedings
+
+  - tag: techreport_arxiv
+    name: Tech Reports
+
+  - tag: poster
+    name: Posters or Demos
+  
+  - tag: thesis
+    name: Theses
