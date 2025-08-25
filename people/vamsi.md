@@ -9,7 +9,7 @@ title: "Vamsi Addanki"
          style="object-fit:cover;">
     <b>Vamsi Addanki</b><br>
     Asst. Professor<br>
-    Purdue University, USA<br>
+    Purdue University, USA<br><br>
     <ul class="list-unstyled small mb-0">
       <li class="mb-2">
         <i class="bi bi-mortarboard me-2"></i>
@@ -42,6 +42,14 @@ title: "Vamsi Addanki"
         </a>
       </li>
     </ul>
+    <hr class="my-3">
+    <div class="small">
+      <div class="fw-semibold mb-2">Office</div>
+      <div class="mb-1">
+        <i class="bi bi-building me-2"></i>
+        LWSN 2142J, West Lafayette
+      </div>
+    </div>
     <hr class="my-3">
     <div class="small">
       <div class="fw-semibold mb-2">Contact</div>

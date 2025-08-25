@@ -12,7 +12,7 @@ title: "STyGIANet"
 
 
 
-We are the Systems and Theory Group for Intelligent and Adaptive Networks (STyGIANet) lab in the Computer Science Department at Purdue University, headed by <a href="/members/vamsi.html">Vamsi Addanki</a>.
+We are the Systems and Theory Group for Intelligent and Adaptive Networks (STyGIANet) lab in the Computer Science Department at Purdue University, headed by <a href="/people/vamsi.html">Vamsi Addanki</a>.
 
 
 Website under construction..!
