@@ -1,0 +1,62 @@
+title: "STyGIANet"
+logo: /images/logo-dark-transparent.png
+tagline: ""
+email: ""
+description: Vamsi Addanki
+# description: >- # this means to ignore newlines until "baseurl:"
+#  Bio
+author: Vamsi Addanki
+url: https://www.vamsiaddanki.net # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+google_analytics:
+twitter:
+  username: Vamsi_Dt
+  card: summary #keep this to generate a twitter share card
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll/scholar
+scholar:
+  style: _bibliography/bibStyle.csl
+  locale: en
+
+  sort_by: year, month
+  order: descending
+
+  group_by: none
+  group_order: descending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  # use_raw_bibtex_entry: false
+  bibtex_options:
+    parse_months: true
+
+  bibtex_skip_fields:
+    - abstract
+    - month_numeric
+    - status # All tags below are custom tags I use for organizing the publications page
+    - tag 
+    - paper
+    - poster
+    - code
+    - video
+    - videocontd
+    - supervisors
+    - location
+    - group
+    - slides
+    - website
+    - month
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+markdown: kramdown
