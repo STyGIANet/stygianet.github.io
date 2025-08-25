@@ -1,3 +1,13 @@
+- venue: ACM SIGMETRICS
+  type: Program Committe, Reviewer
+  tag: SIGMETRICS
+  year: 2026
+  date: 2025-08
+- venue: Inter-networking challenges for AI (INET4AI)
+  type: Program Committe, Reviewer
+  tag: INET4AI
+  year: 2025
+  date: 2025-07
 - venue: IEEE Transactions on Networking
   type: Reviewer
   tag: ToN

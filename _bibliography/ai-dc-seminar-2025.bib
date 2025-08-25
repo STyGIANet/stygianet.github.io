@@ -1,0 +1,1049 @@
+@article{doi:10.1177/1094342005051521,
+author = {Rajeev Thakur and Rolf Rabenseifner and William Gropp},
+title ={Optimization of Collective Communication Operations in MPICH},
+journal = {The International Journal of High Performance Computing Applications},
+volume = {19},
+number = {1},
+pages = {49-66},
+year = {2005},
+doi = {10.1177/1094342005051521},
+URL = {https://doi.org/10.1177/1094342005051521},
+eprint = {https://doi.org/10.1177/1094342005051521},
+}
+
+
+@article{10.1145/1273445.1273458,
+author = {Keshav, S.},
+title = {How to read a paper},
+year = {2007},
+issue_date = {July 2007},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {37},
+number = {3},
+issn = {0146-4833},
+url = {https://doi.org/10.1145/1273445.1273458},
+doi = {10.1145/1273445.1273458},
+abstract = {Researchers spend a great deal of time reading research papers. However, this skill is rarely taught, leading to much wasted effort. This article outlines a practical and efficient three-pass method for reading research papers. I also describe how to use this method to do a literature survey.},
+journal = {SIGCOMM Comput. Commun. Rev.},
+month = jul,
+pages = {83–84},
+numpages = {2},
+keywords = {hints, paper, reading}
+}
+
+
+@misc{roscoe2007writing,
+  title={Writing reviews for systems conferences},
+  author={Roscoe, Timothy},
+  year={2007},
+  url={https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf},
+}
+
+
+@misc{henning,
+title={Writing Technical Articles},
+author={Henning Schulzrinne},
+url={https://www.cs.columbia.edu/~hgs/etc/writing-style.html},
+}
+
+
+@inproceedings{10.1145/3651890.3672265,
+author = {Qian, Kun and Xi, Yongqing and Cao, Jiamin and Gao, Jiaqi and Xu, Yichi and Guan, Yu and Fu, Binzhang and Shi, Xuemei and Zhu, Fangbo and Miao, Rui and Wang, Chao and Wang, Peng and Zhang, Pengcheng and Zeng, Xianlong and Ruan, Eddie and Yao, Zhiping and Zhai, Ennan and Cai, Dennis},
+title = {Alibaba HPN: A Data Center Network for Large Language Model Training},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672265},
+doi = {10.1145/3651890.3672265},
+abstract = {This paper presents HPN, Alibaba Cloud's data center network for large language model (LLM) training. Due to the differences between LLMs and general cloud computing (e.g., in terms of traffic patterns and fault tolerance), traditional data center networks are not well-suited for LLM training. LLM training produces a small number of periodic, bursty flows (e.g., 400Gbps) on each host. This characteristic of LLM training predisposes Equal-Cost Multi-Path (ECMP) to hash polarization, causing issues such as uneven traffic distribution. HPN introduces a 2-tier, dual-plane architecture capable of interconnecting 15K GPUs within one Pod, typically accommodated by the traditional 3-tier Clos architecture. Such a new architecture design not only avoids hash polarization but also greatly reduces the search space for path selection. Another challenge in LLM training is that its requirement for GPUs to complete iterations in synchronization makes it more sensitive to singlepoint failure (typically occurring on ToR). HPN proposes a new dual-ToR design to replace the single-ToR in traditional data center networks. HPN has been deployed in our production for more than eight months. We share our experience in designing, and building HPN, as well as the operational lessons of HPN in production.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {691–706},
+numpages = {16},
+keywords = {network architecture, AI infrastructure, large language model, model training, data center networks},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+@inproceedings{10.1145/2934872.2934908,
+author = {Guo, Chuanxiong and Wu, Haitao and Deng, Zhong and Soni, Gaurav and Ye, Jianxi and Padhye, Jitu and Lipshteyn, Marina},
+title = {RDMA over Commodity Ethernet at Scale},
+year = {2016},
+isbn = {9781450341936},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2934872.2934908},
+doi = {10.1145/2934872.2934908},
+abstract = {Over the past one and half years, we have been using RDMA over commodity Ethernet (RoCEv2) to support some of Microsoft's highly-reliable, latency-sensitive services. This paper describes the challenges we encountered during the process and the solutions we devised to address them. In order to scale RoCEv2 beyond VLAN, we have designed a DSCP-based priority flow-control (PFC) mechanism to ensure large-scale deployment. We have addressed the safety challenges brought by PFC-induced deadlock (yes, it happened!), RDMA transport livelock, and the NIC PFC pause frame storm problem. We have also built the monitoring and management systems to make sure RDMA works as expected. Our experiences show that the safety and scalability issues of running RoCEv2 at scale can all be addressed, and RDMA can replace TCP for intra data center communications and achieve low latency, low CPU overhead, and high throughput.},
+booktitle = {Proceedings of the 2016 ACM SIGCOMM Conference},
+pages = {202–215},
+numpages = {14},
+keywords = {RoCEv2, RDMA, PFC propagation, PFC, Deadlock},
+location = {Florianopolis, Brazil},
+series = {SIGCOMM '16}
+}
+
+
+@inproceedings{a10.1145/3696348.3696893,
+author = {Gherghescu, Alexandru M. and B\u{a}doiu, Vlad-Andrei and Agache, Alexandru and Dumitru, Mihai-Valentin and Vasilescu, Iuliu and Mantu, Radu and Raiciu, Costin},
+title = {I've Got 99 Problems But FLOPS Ain't One},
+year = {2024},
+isbn = {9798400712722},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3696348.3696893},
+doi = {10.1145/3696348.3696893},
+abstract = {Hyperscalers dominate the landscape of large network deployments, yet they rarely share data or insights about the challenges they face. In light of this supremacy, what problems can we find to solve in this space? We take an unconventional approach to find relevant research directions, starting from public plans to build a $100 billion datacenter for machine learning applications [53]. Leveraging the language models scaling laws, we discover what workloads such a datacenter might carry and explore the challenges one may encounter in doing so, with a focus on networking research. We conclude that building the datacenter and training such models is technically possible, but this requires novel wide-area transports for inter-DC communication, a multipath transport and novel datacenter topologies for intra-datacenter communication, high speed scale-up networks and transports, outlining a rich research agenda for the networking community.},
+booktitle = {Proceedings of the 23rd ACM Workshop on Hot Topics in Networks},
+pages = {195–204},
+numpages = {10},
+keywords = {Datacenter Networking, Large Language Models Training},
+location = {Irvine, CA, USA},
+series = {HotNets '24}
+}
+
+
+
+@inproceedings{10.1145/3651890.3672233,
+author = {Gangidi, Adithya and Miao, Rui and Zheng, Shengbao and Bondu, Sai Jayesh and Goes, Guilherme and Morsy, Hany and Puri, Rohit and Riftadi, Mohammad and Shetty, Ashmitha Jeevaraj and Yang, Jingyi and Zhang, Shuqiang and Fernandez, Mikel Jimenez and Gandham, Shashidhar and Zeng, Hongyi},
+title = {RDMA over Ethernet for Distributed Training at Meta Scale},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672233},
+doi = {10.1145/3651890.3672233},
+abstract = {The rapid growth in both computational density and scale in AI models in recent years motivates the construction of an efficient and reliable dedicated network infrastructure. This paper presents the design, implementation, and operation of Meta's Remote Direct Memory Access over Converged Ethernet (RoCE) networks for distributed AI training.Our design principles involve a deep understanding of the workloads, and we translated these insights into the design of various network components: Network Topology - To support the rapid evolution of generations of AI hardware platforms, we separated GPU-based training into its own "backend" network. Routing - Training workloads inherently impose load imbalance and burstiness, so we deployed several iterations of routing schemes to achieve near-optimal traffic distribution. Transport - We outline how we initially attempted to use DCQCN for congestion management but then pivoted away from DCQCN to instead leverage the collective library itself to manage congestion. Operations - We share our experience operating large-scale AI networks, including toolings we developed and troubleshooting examples.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {57–70},
+numpages = {14},
+keywords = {RDMA, distributed training},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+
+@inproceedings {a305348,
+author = {Xizheng Wang and Qingxu Li and Yichi Xu and Gang Lu and Dan Li and Li Chen and Heyang Zhou and Linkang Zheng and Sen Zhang and Yikai Zhu and Yang Liu and Pengcheng Zhang and Kun Qian and Kunling He and Jiaqi Gao and Ennan Zhai and Dennis Cai and Binzhang Fu},
+title = {{SimAI}: Unifying Architecture Design and Performance Tuning for {Large-Scale} Large Language Model Training with Scalability and Precision},
+booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
+year = {2025},
+isbn = {978-1-939133-46-5},
+address = {Philadelphia, PA},
+pages = {541--558},
+url = {https://www.usenix.org/conference/nsdi25/presentation/wang-xizheng-simai},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+@inproceedings{a9238637,
+  author={Rashidi, Saeed and Sridharan, Srinivas and Srinivasan, Sudarshan and Krishna, Tushar},
+  booktitle={2020 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)}, 
+  title={ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={81-92},
+  keywords={Training;Technological innovation;Navigation;Network topology;Software algorithms;Software;Scheduling;Distributed training;Collective communication;Training parallelism;High performance training systems},
+  doi={10.1109/ISPASS48437.2020.00018}
+}
+
+
+@inproceedings{a10158106,
+  author={Won, William and Heo, Taekyung and Rashidi, Saeed and Sridharan, Srinivas and Srinivasan, Sudarshan and Krishna, Tushar},
+  booktitle={2023 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)}, 
+  title={ASTRA-sim2.0: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={283-294},
+  keywords={Training;Semiconductor device modeling;Analytical models;Network topology;Systems modeling;Throughput;Data models;Distributed training;High-performance training;Multi-dimensional network;Disaggregated memory system},
+  doi={10.1109/ISPASS57527.2023.00035}
+}
+
+
+
+@article{https://doi.org/10.1002/cpe.1206,
+author = {Chan, Ernie and Heimlich, Marcel and Purkayastha, Avi and van de Geijn, Robert},
+title = {Collective communication: theory, practice, and experience},
+journal = {Concurrency and Computation: Practice and Experience},
+volume = {19},
+number = {13},
+pages = {1749-1783},
+keywords = {collective communication, distributed-memory architecture, clusters},
+doi = {https://doi.org/10.1002/cpe.1206},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.1206},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.1206},
+abstract = {Abstract We discuss the design and high-performance implementation of collective communications operations on distributed-memory computer architectures. Using a combination of known techniques (many of which were first proposed in the 1980s and early 1990s) along with careful exploitation of communication modes supported by MPI, we have developed implementations that have improved performance in most situations compared to those currently supported by public domain implementations of MPI such as MPICH. Performance results from a large Intel Xeon/Pentium 4 (R) processor cluster are included. Copyright © 2007 John Wiley \& Sons, Ltd.},
+year = {2007}
+}
+
+
+@inproceedings {a295653,
+author = {Daniele De Sensi and Tommaso Bonato and David Saam and Torsten Hoefler},
+title = {Swing: Short-cutting Rings for Higher Bandwidth Allreduce},
+booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+year = {2024},
+isbn = {978-1-939133-39-7},
+address = {Santa Clara, CA},
+pages = {1445--1462},
+url = {https://www.usenix.org/conference/nsdi24/presentation/de-sensi},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+@article{kolmakov2020generalization,
+  title={A generalization of the allreduce operation},
+  author={Kolmakov, Dmitry and Zhang, Xuecang},
+  journal={arXiv preprint arXiv:2004.09362},
+  url={https://arxiv.org/abs/2004.09362},
+  year={2020}
+}
+
+@inproceedings{10.1145/3437801.3441620,
+author = {Cai, Zixian and Liu, Zhengyang and Maleki, Saeed and Musuvathi, Madanlal and Mytkowicz, Todd and Nelson, Jacob and Saarikivi, Olli},
+title = {Synthesizing optimal collective algorithms},
+year = {2021},
+isbn = {9781450382946},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3437801.3441620},
+doi = {10.1145/3437801.3441620},
+abstract = {Collective communication algorithms are an important component of distributed computation. Indeed, in the case of deep-learning, collective communication is the Amdahl's bottleneck of data-parallel training.This paper introduces SCCL (for Synthesized Collective Communication Library), a systematic approach to synthesizing collective communication algorithms that are explicitly tailored to a particular hardware topology. SCCL synthesizes algorithms along the Pareto-frontier spanning from latency-optimal to bandwidth-optimal implementations of a collective. The paper demonstrates how to encode the synthesis problem as a quantifier-free SMT formula which can be discharged to a theorem prover. We show how our carefully built encoding enables SCCL to scale.We synthesize novel latency and bandwidth optimal algorithms not seen in the literature on two popular hardware topologies. We also show how SCCL efficiently lowers algorithms to implementations on two hardware architectures (NVIDIA and AMD) and demonstrate competitive performance with hand optimized collective communication libraries.},
+booktitle = {Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+pages = {62–75},
+numpages = {14},
+keywords = {synthesis, network, interconnection, collective communication, GPU},
+location = {Virtual Event, Republic of Korea},
+series = {PPoPP '21}
+}
+
+
+@inproceedings{MLSYS2020_cd3a9a55,
+ author = {Wang, Guanhua and Venkataraman, Shivaram and Phanishayee, Amar and Devanur, Nikhil and Thelin, Jorgen and Stoica, Ion},
+ booktitle = {Proceedings of Machine Learning and Systems},
+ editor = {I. Dhillon and D. Papailiopoulos and V. Sze},
+ pages = {172--186},
+ title = {Blink: Fast and Generic Collectives for Distributed ML},
+ url = {https://proceedings.mlsys.org/paper_files/paper/2020/file/cd3a9a55f7f3723133fa4a13628cdf03-Paper.pdf},
+ volume = {2},
+ year = {2020}
+}
+
+
+@inproceedings{10.1145/3651890.3672249,
+author = {Liu, Xuting and Arzani, Behnaz and Kakarla, Siva Kesava Reddy and Zhao, Liangyu and Liu, Vincent and Castro, Miguel and Kandula, Srikanth and Marshall, Luke},
+title = {Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672249},
+doi = {10.1145/3651890.3672249},
+abstract = {Cloud operators utilize collective communication optimizers to enhance the efficiency of the single-tenant, centrally managed training clusters they manage. However, current optimizers struggle to scale for such use cases and often compromise solution quality for scalability. Our solution, TE-CCL, adopts a traffic-engineering-based approach to collective communication. Compared to a state-of-the-art optimizer, TACCL, TE-CCL produced schedules with 2\texttimes{} better performance on topologies TACCL supports (and its solver took a similar amount of time as TACCL's heuristic-based approach). TECCL additionally scales to larger topologies than TACCL. On our GPU testbed, TE-CCL outperformed TACCL by 2.14\texttimes{} and RCCL by 3.18\texttimes{} in terms of algorithm bandwidth.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {16–37},
+numpages = {22},
+keywords = {GPU, collective communication, traffic engineering},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+@inproceedings {a285084,
+author = {Aashaka Shah and Vijay Chidambaram and Meghan Cowan and Saeed Maleki and Madan Musuvathi and Todd Mytkowicz and Jacob Nelson and Olli Saarikivi and Rachee Singh},
+title = {{TACCL}: Guiding Collective Algorithm Synthesis using Communication Sketches},
+booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+year = {2023},
+isbn = {978-1-939133-33-5},
+address = {Boston, MA},
+pages = {593--612},
+url = {https://www.usenix.org/conference/nsdi23/presentation/shah},
+publisher = {USENIX Association},
+month = apr
+}
+
+@inproceedings {a305967,
+author = {Guanbin Xu and Zhihao Le and Yinhe Chen and Zhiqi Lin and Zewen Jin and Youshan Miao and Cheng Li},
+title = {{AutoCCL}: Automated Collective Communication Tuning for Accelerating Distributed and Parallel {DNN} Training},
+booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
+year = {2025},
+isbn = {978-1-939133-46-5},
+address = {Philadelphia, PA},
+pages = {667--683},
+url = {https://www.usenix.org/conference/nsdi25/presentation/xu-guanbin},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+
+@article{devraj2025accelerating,
+  title={Accelerating AllReduce with a Persistent Straggler},
+  author={Devraj, Arjun and Ding, Eric and Kumar, Abhishek Vijaya and Kleinberg, Robert and Singh, Rachee},
+  journal={arXiv preprint arXiv:2505.23523},
+  year={2025},
+  url={https://arxiv.org/abs/2505.23523}
+}
+
+
+@inproceedings {a305995,
+author = {Ertza Warraich and Omer Shabtai and Khalid Manaa and Shay Vargaftik and Yonatan Piasetzky and Matty Kadosh and Lalith Suresh and Muhammad Shahbaz},
+title = {{OptiReduce}: Resilient and {Tail-Optimal} {AllReduce} for Distributed Deep Learning in the Cloud},
+booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
+year = {2025},
+isbn = {978-1-939133-46-5},
+address = {Philadelphia, PA},
+pages = {685--703},
+url = {https://www.usenix.org/conference/nsdi25/presentation/warraich},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+@inproceedings{10.1145/2987550.2987554,
+author = {Harlap, Aaron and Cui, Henggang and Dai, Wei and Wei, Jinliang and Ganger, Gregory R. and Gibbons, Phillip B. and Gibson, Garth A. and Xing, Eric P.},
+title = {Addressing the straggler problem for iterative convergent parallel ML},
+year = {2016},
+isbn = {9781450345255},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2987550.2987554},
+doi = {10.1145/2987550.2987554},
+abstract = {FlexRR provides a scalable, efficient solution to the straggler problem for iterative machine learning (ML). The frequent (e.g., per iteration) barriers used in traditional BSP-based distributed ML implementations cause every transient slowdown of any worker thread to delay all others. FlexRR combines a more flexible synchronization model with dynamic peer-to-peer re-assignment of work among workers to address straggler threads. Experiments with real straggler behavior observed on Amazon EC2 and Microsoft Azure, as well as injected straggler behavior stress tests, confirm the significance of the problem and the effectiveness of FlexRR's solution. Using FlexRR, we consistently observe near-ideal run-times (relative to no performance jitter) across all real and injected straggler behaviors tested.},
+booktitle = {Proceedings of the Seventh ACM Symposium on Cloud Computing},
+pages = {98–111},
+numpages = {14},
+location = {Santa Clara, CA, USA},
+series = {SoCC '16}
+}
+
+
+@inproceedings{NIPS2017_663772ea,
+ author = {Karakus, Can and Sun, Yifan and Diggavi, Suhas and Yin, Wotao},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Straggler Mitigation in Distributed Optimization Through Data Encoding},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2017/file/663772ea088360f95bac3dc7ffb841be-Paper.pdf},
+ volume = {30},
+ year = {2017}
+}
+
+@inproceedings{cipar2013solving,
+  title={Solving the straggler problem with bounded staleness},
+  author={Cipar, James and Ho, Qirong and Kim, Jin Kyu and Lee, Seunghak and Ganger, Gregory R and Gibson, Garth and Keeton, Kimberly and Xing, Eric},
+  booktitle={14th Workshop on Hot Topics in Operating Systems (HotOS XIV)},
+  year={2013}
+}
+
+
+@inproceedings{10.1145/3098822.3098838,
+author = {Mellette, William M. and McGuinness, Rob and Roy, Arjun and Forencich, Alex and Papen, George and Snoeren, Alex C. and Porter, George},
+title = {RotorNet: A Scalable, Low-complexity, Optical Datacenter Network},
+year = {2017},
+isbn = {9781450346535},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3098822.3098838},
+doi = {10.1145/3098822.3098838},
+abstract = {The ever-increasing bandwidth requirements of modern datacenters have led researchers to propose networks based upon optical circuit switches, but these proposals face significant deployment challenges. In particular, previous proposals dynamically configure circuit switches in response to changes in workload, requiring network-wide demand estimation, centralized circuit assignment, and tight time synchronization between various network elements--- resulting in a complex and unwieldy control plane. Moreover, limitations in the technologies underlying the individual circuit switches restrict both the rate at which they can be reconfigured and the scale of the network that can be constructed.We propose RotorNet, a circuit-based network design that addresses these two challenges. While RotorNet dynamically reconfigures its constituent circuit switches, it decouples switch configuration from traffic patterns, obviating the need for demand collection and admitting a fully decentralized control plane. At the physical layer, RotorNet relaxes the requirements on the underlying circuit switches---in particular by not requiring individual switches to implement a full crossbar---enabling them to scale to 1000s of ports. We show that RotorNet outperforms comparably priced Fat Tree topologies under a variety of workload conditions, including traces taken from two commercial datacenters. We also demonstrate a small-scale RotorNet operating in practice on an eight-node testbed.},
+booktitle = {Proceedings of the Conference of the ACM Special Interest Group on Data Communication},
+pages = {267–280},
+numpages = {14},
+keywords = {optical switching, Datacenter},
+location = {Los Angeles, CA, USA},
+series = {SIGCOMM '17}
+}
+
+
+
+@inproceedings{10.1145/3651890.3672273,
+author = {Mellette, William M. and Forencich, Alex and Athapathu, Rukshani and Snoeren, Alex C. and Papen, George and Porter, George},
+title = {Realizing RotorNet: Toward Practical Microsecond Scale Optical Networking},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672273},
+doi = {10.1145/3651890.3672273},
+abstract = {We describe our experience building and deploying a demand-oblivious optically-switched network based on the RotorNet and Opera architectures. We detail the design, manufacture, deployment, and end-to-end operation of a 128-port optical rotor switch along with supporting NIC hardware and host software. Using this prototype, we assess yield, synchronization, and interoperability with commodity hardware and software at a scale of practical relevance. We provide the first real-world measurements of Linux TCP throughput and host-to-host latency in an operational RotorNet, achieving 98\% of link rate with 99th-percentile ping times faster than commodity packet-switching hardware. In the process, we uncover unexpected challenges with link-level dropouts and devise a novel and flexible way to address them. Our deployment experience demonstrates the feasibility of our implementation approach and identifies opportunities for future exploration.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {392–414},
+numpages = {23},
+keywords = {circuit-switching, optical networking, datacenter networks},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+@inproceedings{10.1145/3387514.3406221,
+author = {Ballani, Hitesh and Costa, Paolo and Behrendt, Raphael and Cletheroe, Daniel and Haller, Istvan and Jozwik, Krzysztof and Karinou, Fotini and Lange, Sophie and Shi, Kai and Thomsen, Benn and Williams, Hugh},
+title = {Sirius: A Flat Datacenter Network with Nanosecond Optical Switching},
+year = {2020},
+isbn = {9781450379557},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3387514.3406221},
+doi = {10.1145/3387514.3406221},
+abstract = {The increasing gap between the growth of datacenter traffic and electrical switch capacity is expected to worsen due to the slowdown of Moore's law, motivating the need for a new switching technology for the post-Moore's law era that can meet the increasingly stringent requirements of hardware-driven cloud workloads. We propose Sirius, an optically-switched network for datacenters providing the abstraction of a single, high-radix switch that can connect thousands of nodes---racks or servers---in a datacenter while achieving nanosecond-granularity reconfiguration. At its core, Sirius uses a combination of tunable lasers and simple, passive gratings that route light based on its wavelength. Sirius' switching technology and topology is tightly codesigned with its routing and scheduling and with novel congestion-control and time-synchronization mechanisms to achieve a scalable yet flat network that can offer high bandwidth and very low end-to-end latency. Through a small-scale prototype using a custom tunable laser chip that can tune in less than 912 ps, we demonstrate 3.84 ns end-to-end reconfiguration atop 50 Gbps channels. Through large-scale simulations, we show that Sirius can approximate the performance of an ideal, electrically-switched non-blocking network with up to 74-77\% lower power.},
+booktitle = {Proceedings of the Annual Conference of the ACM Special Interest Group on Data Communication on the Applications, Technologies, Architectures, and Protocols for Computer Communication},
+pages = {782–797},
+numpages = {16},
+keywords = {Datacenter Networks, Fast Tunable Lasers, Nanosecond Switching, Optical Switches, Scheduler-less design, Vertical Integration},
+location = {Virtual Event, USA},
+series = {SIGCOMM '20}
+}
+
+
+@article{10.1145/3579312,
+author = {Addanki, Vamsi and Avin, Chen and Schmid, Stefan},
+title = {Mars: Near-Optimal Throughput with Shallow Buffers in Reconfigurable Datacenter Networks},
+year = {2023},
+issue_date = {March 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {1},
+url = {https://doi.org/10.1145/3579312},
+doi = {10.1145/3579312},
+abstract = {The performance of large-scale computing systems often critically depends on high-performance communication networks. Dynamically reconfigurable topologies, e.g., based on optical circuit switches, are emerging as an innovative new technology to deal with the explosive growth of datacenter traffic. Specifically, periodic reconfigurable datacenter networks (RDCNs) such as RotorNet (SIGCOMM 2017), Opera (NSDI 2020) and Sirius (SIGCOMM 2020) have been shown to provide high throughput, by emulating a complete graph through fast periodic circuit switch scheduling.However, to achieve such a high throughput, existing reconfigurable network designs pay a high price: in terms of potentially high delays, but also, as we show as a first contribution in this paper, in terms of the high buffer requirements. In particular, we show that under buffer constraints, emulating the high-throughput complete graph is infeasible at scale, and we uncover a spectrum of unvisited and attractive alternative RDCNs, which emulate regular graphs, but with lower node degree than the complete graph.We present Mars, a periodic reconfigurable topology which emulates ad-regular graph with near-optimal throughput. In particular, we systematically analyze how the degree d can be optimized for throughput given the available buffer and delay tolerance of the datacenter. We further show empirically that Mars achieves higher throughput compared to existing systems when buffer sizes are bounded.},
+journal = {Proc. ACM Meas. Anal. Comput. Syst.},
+month = mar,
+articleno = {2},
+numpages = {43},
+keywords = {buffer requirements, datacenter, reconfigurable networks, throughput}
+}
+
+
+@inproceedings{10.1145/3651890.3672248,
+author = {Amir, Daniel and Saran, Nitika and Wilson, Tegan and Kleinberg, Robert and Shrivastav, Vishal and Weatherspoon, Hakim},
+title = {Shale: A Practical, Scalable Oblivious Reconfigurable Network},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672248},
+doi = {10.1145/3651890.3672248},
+abstract = {Circuit-switched technologies have long been proposed for handling high-throughput traffic in datacenter networks, but recent developments in nanosecond-scale reconfiguration have created the enticing possibility of handling low-latency traffic as well. The novel Oblivious Reconfigurable Network (ORN) design paradigm promises to deliver on this possibility. Prior work in ORN designs achieved latencies that scale linearly with system size, making them unsuitable for large-scale deployments. Recent theoretical work showed that ORNs can achieve far better latency scaling, proposing theoretical ORN designs that are Pareto optimal in latency and throughput.In this work, we bridge multiple gaps between theory and practice to develop Shale, the first ORN capable of providing low-latency networking at datacenter scale while still guaranteeing high throughput. By interleaving multiple Pareto optimal schedules in parallel, both latency- and throughput-sensitive flows can achieve optimal performance. To achieve the theoretical low latencies in practice, we design a new congestion control mechanism which is best suited to the characteristics of Shale. In datacenter-scale packet simulations, our design compares favorably with both an in-network congestion mitigation strategy, modern receiver-driven protocols such as NDP, and an idealized analog for sender-driven protocols. We implement an FPGA-based prototype of Shale, achieving orders of magnitude better resource scaling than existing ORN proposals. Finally, we extend our congestion control solution to handle node and link failures.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {449–464},
+numpages = {16},
+keywords = {optical switches, datacenter networks, nanosecond switching},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+@inproceedings{10.1145/2716281.2836126,
+author = {Liu, He and Mukerjee, Matthew K. and Li, Conglong and Feltman, Nicolas and Papen, George and Savage, Stefan and Seshan, Srinivasan and Voelker, Geoffrey M. and Andersen, David G. and Kaminsky, Michael and Porter, George and Snoeren, Alex C.},
+title = {Scheduling techniques for hybrid circuit/packet networks},
+year = {2015},
+isbn = {9781450334129},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2716281.2836126},
+doi = {10.1145/2716281.2836126},
+abstract = {A range of new datacenter switch designs combine wireless or optical circuit technologies with electrical packet switching to deliver higher performance at lower cost than traditional packet-switched networks. These "hybrid" networks schedule large traffic demands via a high-rate circuits and remaining traffic with a lower-rate, traditional packet-switches. Achieving high utilization requires an efficient scheduling algorithm that can compute proper circuit configurations and balance traffic across the switches. Recent proposals, however, provide no such algorithm and rely on an omniscient oracle to compute optimal switch configurations.Finding the right balance of circuit and packet switch use is difficult: circuits must be reconfigured to serve different demands, incurring non-trivial switching delay, while the packet switch is bandwidth constrained. Adapting existing crossbar scheduling algorithms proves challenging with these constraints. In this paper, we formalize the hybrid switching problem, explore the design space of scheduling algorithms, and provide insight on using such algorithms in practice. We propose a heuristic-based algorithm, Solstice that provides a 2.9\texttimes{} increase in circuit utilization over traditional scheduling algorithms, while being within 14\% of optimal, at scale.},
+booktitle = {Proceedings of the 11th ACM Conference on Emerging Networking Experiments and Technologies},
+articleno = {41},
+numpages = {13},
+keywords = {circuit networks, hybrid networks, packet networks},
+location = {Heidelberg, Germany},
+series = {CoNEXT '15}
+}
+
+
+@inproceedings{10.1145/2486001.2486007,
+author = {Porter, George and Strong, Richard and Farrington, Nathan and Forencich, Alex and Chen-Sun, Pang and Rosing, Tajana and Fainman, Yeshaiahu and Papen, George and Vahdat, Amin},
+title = {Integrating microsecond circuit switching into the data center},
+year = {2013},
+isbn = {9781450320566},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2486001.2486007},
+doi = {10.1145/2486001.2486007},
+abstract = {Recent proposals have employed optical circuit switching (OCS) to reduce the cost of data center networks. However, the relatively slow switching times (10--100 ms) assumed by these approaches, and the accompanying latencies of their control planes, has limited its use to only the largest data center networks with highly aggregated and constrained workloads. As faster switch technologies become available, designing a control plane capable of supporting them becomes a key challenge.In this paper, we design and implement an OCS prototype capable of switching in 11.5 us, and we use this prototype to expose a set of challenges that arise when supporting switching at microsecond time scales. In response, we propose a microsecond-latency control plane based on a circuit scheduling approach we call Traffic Matrix Scheduling (TMS) that proactively communicates circuit assignments to communicating entities so that circuit bandwidth can be used efficiently.},
+booktitle = {Proceedings of the ACM SIGCOMM 2013 Conference on SIGCOMM},
+pages = {447–458},
+numpages = {12},
+keywords = {optical networks, data center networks},
+location = {Hong Kong, China},
+series = {SIGCOMM '13}
+}
+
+
+@inproceedings{10.1145/1851182.1851223,
+author = {Farrington, Nathan and Porter, George and Radhakrishnan, Sivasankar and Bazzaz, Hamid Hajabdolali and Subramanya, Vikram and Fainman, Yeshaiahu and Papen, George and Vahdat, Amin},
+title = {Helios: a hybrid electrical/optical switch architecture for modular data centers},
+year = {2010},
+isbn = {9781450302012},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1851182.1851223},
+doi = {10.1145/1851182.1851223},
+abstract = {The basic building block of ever larger data centers has shifted from a rack to a modular container with hundreds or even thousands of servers. Delivering scalable bandwidth among such containers is a challenge. A number of recent efforts promise full bisection bandwidth between all servers, though with significant cost, complexity, and power consumption. We present Helios, a hybrid electrical/optical switch architecture that can deliver significant reductions in the number of switching elements, cabling, cost, and power consumption relative to recently proposed data center network architectures. We explore architectural trade offs and challenges associated with realizing these benefits through the evaluation of a fully functional Helios prototype.},
+booktitle = {Proceedings of the ACM SIGCOMM 2010 Conference},
+pages = {339–350},
+numpages = {12},
+keywords = {optical networks, data center networks},
+location = {New Delhi, India},
+series = {SIGCOMM '10}
+}
+
+@inproceedings{10.1145/2934872.2934911,
+author = {Ghobadi, Monia and Mahajan, Ratul and Phanishayee, Amar and Devanur, Nikhil and Kulkarni, Janardhan and Ranade, Gireeja and Blanche, Pierre-Alexandre and Rastegarfar, Houman and Glick, Madeleine and Kilper, Daniel},
+title = {ProjecToR: Agile Reconfigurable Data Center Interconnect},
+year = {2016},
+isbn = {9781450341936},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2934872.2934911},
+doi = {10.1145/2934872.2934911},
+abstract = {We explore a novel, free-space optics based approach for building data center interconnects. It uses a digital micromirror device (DMD) and mirror assembly combination as a transmitter and a photodetector on top of the rack as a receiver (Figure 1). Our approach enables all pairs of racks to establish direct links, and we can reconfigure such links (i.e., connect different rack pairs) within 12 us. To carry traffic from a source to a destination rack, transmitters and receivers in our interconnect can be dynamically linked in millions of ways. We develop topology construction and routing methods to exploit this flexibility, including a flow scheduling algorithm that is a constant factor approximation to the offline optimal solution. Experiments with a small prototype point to the feasibility of our approach. Simulations using realistic data center workloads show that, compared to the conventional folded-Clos interconnect, our approach can improve mean flow completion time by 30-95\% and reduce cost by 25-40\%.},
+booktitle = {Proceedings of the 2016 ACM SIGCOMM Conference},
+pages = {216–229},
+numpages = {14},
+keywords = {Reconfigurability, Free-Space Optics, Data Centers},
+location = {Florianopolis, Brazil},
+series = {SIGCOMM '16}
+}
+
+@inproceedings{10.1145/3651890.3672222,
+author = {Liang, Cong and Song, Xiangli and Cheng, Jing and Wang, Mowei and Liu, Yashe and Liu, Zhenhua and Zhao, Shizhen and Cui, Yong},
+title = {NegotiaToR: Towards A Simple Yet Effective On-demand Reconfigurable Datacenter Network},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672222},
+doi = {10.1145/3651890.3672222},
+abstract = {Recent advances in fast optical switching technology show promise in meeting the high goodput and low latency requirements of datacenter networks (DCN). We present NegotiaToR, a simple network architecture for optical reconfigurable DCNs that utilizes on-demand scheduling to handle dynamic traffic. In NegotiaToR, racks exchange scheduling messages through an in-band control plane and distributedly calculate non-conflicting paths from binary traffic demand information. Optimized for incasts, it also provides opportunities to bypass scheduling delays. NegotiaToR is compatible with prevalent flat topologies, and is tailored towards a minimalist design for on-demand reconfigurable DCNs, enhancing practicality. Through large-scale simulations, we show that NegotiaToR achieves both small mice flow completion time (FCT) and high goodput on two representative flat topologies, especially under heavy loads. Particularly, the FCT of mice flows is one to two orders of magnitude better than the state-of-the-art traffic-oblivious reconfigurable DCN design.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {415–432},
+numpages = {18},
+keywords = {datacenter network, optical switching},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+
+@inproceedings{10.1145/3579371.3589350,
+author = {Jouppi, Norm and Kurian, George and Li, Sheng and Ma, Peter and Nagarajan, Rahul and Nai, Lifeng and Patil, Nishant and Subramanian, Suvinay and Swing, Andy and Towles, Brian and Young, Clifford and Zhou, Xiang and Zhou, Zongwei and Patterson, David A},
+title = {TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings},
+year = {2023},
+isbn = {9798400700958},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3579371.3589350},
+doi = {10.1145/3579371.3589350},
+abstract = {In response to innovations in machine learning (ML) models, production workloads changed radically and rapidly. TPU v4 is the fifth Google domain specific architecture (DSA) and its third supercomputer for such ML models. Optical circuit switches (OCSes) dynamically reconfigure its interconnect topology to improve scale, availability, utilization, modularity, deployment, security, power, and performance; users can pick a twisted 3D torus topology if desired. Much cheaper, lower power, and faster than Infiniband, OCSes and underlying optical components are <5\% of system cost and <3\% of system power. Each TPU v4 includes SparseCores, dataflow processors that accelerate models that rely on embeddings by 5x--7x yet use only 5\% of die area and power. Deployed since 2020, TPU v4 outperforms TPU v3 by 2.1x and improves performance/Watt by 2.7x. The TPU v4 supercomputer is 4x larger at 4096 chips and thus nearly 10x faster overall, which along with OCS flexibility and availability allows a large language model to train at an average of ~60\% of peak FLOPS/second. For similar sized systems, it is ~4.3x--4.5x faster than the Graphcore IPU Bow and is 1.2x--1.7x faster and uses 1.3x--1.9x less power than the Nvidia A100. TPU v4s inside the energy-optimized warehouse scale computers of Google Cloud use ~2--6x less energy and produce ~20x less CO2e than contemporary DSAs in typical on-premise data centers.},
+booktitle = {Proceedings of the 50th Annual International Symposium on Computer Architecture},
+articleno = {82},
+numpages = {14},
+keywords = {machine learning, domain specific architecture, TPU, GPU, IPU, supercomputer, optical interconnect, reconfigurable, embeddings, large language model, power usage effectiveness, warehouse scale computer, carbon emissions, energy, CO2 equivalent emissions},
+location = {Orlando, FL, USA},
+series = {ISCA '23}
+}
+
+
+@inproceedings {a295551,
+author = {Yazhou Zu and Alireza Ghaffarkhah and Hoang-Vu Dang and Brian Towles and Steven Hand and Safeen Huda and Adekunle Bello and Alexander Kolbasov and Arash Rezaei and Dayou Du and Steve Lacy and Hang Wang and Aaron Wisner and Chris Lewis and Henri Bahini},
+title = {Resiliency at Scale: Managing {Google{\textquoteright}s} {TPUv4} Machine Learning Supercomputer},
+booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+year = {2024},
+isbn = {978-1-939133-39-7},
+address = {Santa Clara, CA},
+pages = {761--774},
+url = {https://www.usenix.org/conference/nsdi24/presentation/zu},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+@INPROCEEDINGS{a10254691,
+  author={Jouppi, Norman P. and Swing, Andy},
+  booktitle={2023 IEEE Hot Chips 35 Symposium (HCS)}, 
+  title={A Machine Learning Supercomputer with an Optically Reconfigurable Interconnect and Embeddings Support}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-24},
+  keywords={Optical interconnections;Optical switches;Integrated circuit interconnections;Machine learning;Supercomputers;Switching circuits},
+  doi={10.1109/HCS59251.2023.10254691}
+}
+
+
+
+@inproceedings{a10.1145/3544216.3544265,
+author = {Poutievski, Leon and Mashayekhi, Omid and Ong, Joon and Singh, Arjun and Tariq, Mukarram and Wang, Rui and Zhang, Jianan and Beauregard, Virginia and Conner, Patrick and Gribble, Steve and Kapoor, Rishi and Kratzer, Stephen and Li, Nanfang and Liu, Hong and Nagaraj, Karthik and Ornstein, Jason and Sawhney, Samir and Urata, Ryohei and Vicisano, Lorenzo and Yasumura, Kevin and Zhang, Shidong and Zhou, Junlan and Vahdat, Amin},
+title = {Jupiter evolving: transforming google's datacenter network via optical circuit switches and software-defined networking},
+year = {2022},
+isbn = {9781450394208},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3544216.3544265},
+doi = {10.1145/3544216.3544265},
+abstract = {We present a decade of evolution and production experience with Jupiter datacenter network fabrics. In this period Jupiter has delivered 5x higher speed and capacity, 30\% reduction in capex, 41\% reduction in power, incremental deployment and technology refresh all while serving live production traffic. A key enabler for these improvements is evolving Jupiter from a Clos to a direct-connect topology among the machine aggregation blocks. Critical architectural changes for this include: A datacenter interconnection layer employing Micro-Electro-Mechanical Systems (MEMS) based Optical Circuit Switches (OCSes) to enable dynamic topology reconfiguration, centralized Software-Defined Networking (SDN) control for traffic engineering, and automated network operations for incremental capacity delivery and topology engineering. We show that the combination of traffic and topology engineering on direct-connect fabrics achieves similar throughput as Clos fabrics for our production traffic patterns. We also optimize for path lengths: 60\% of the traffic takes direct path from source to destination aggregation blocks, while the remaining transits one additional block, achieving an average block-level path length of 1.4 in our fleet today. OCS also achieves 3x faster fabric reconfiguration compared to pre-evolution Clos fabrics that used a patch panel based interconnect.},
+booktitle = {Proceedings of the ACM SIGCOMM 2022 Conference},
+pages = {66–85},
+numpages = {20},
+keywords = {datacenter network, optical circuit switches, software-defined networking, topology engineering, traffic engineering},
+location = {Amsterdam, Netherlands},
+series = {SIGCOMM '22}
+}
+
+
+
+@inproceedings{10.1145/3452296.3472900,
+author = {Khani, Mehrdad and Ghobadi, Manya and Alizadeh, Mohammad and Zhu, Ziyi and Glick, Madeleine and Bergman, Keren and Vahdat, Amin and Klenk, Benjamin and Ebrahimi, Eiman},
+title = {SiP-ML: high-bandwidth optical network interconnects for machine learning training},
+year = {2021},
+isbn = {9781450383837},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3452296.3472900},
+doi = {10.1145/3452296.3472900},
+abstract = {This paper proposes optical network interconnects as a key enabler for building high-bandwidth ML training clusters with strong scaling properties. Our design, called SiP-ML, accelerates the training time of popular DNN models using silicon photonics links capable of providing multiple terabits-per-second of bandwidth per GPU. SiP-ML partitions the training job across GPUs with hybrid data and model parallelism while ensuring the communication pattern can be supported efficiently on the network interconnect. We develop task partitioning and device placement methods that take the degree and reconfiguration latency of optical interconnects into account. Simulations using real DNN models show that, compared to the state-of-the-art electrical networks, our approach improves training time by 1.3--9.1x.},
+booktitle = {Proceedings of the 2021 ACM SIGCOMM 2021 Conference},
+pages = {657–675},
+numpages = {19},
+keywords = {distributed machine learning, optical networks, reconfigurable networks, silicon photonics},
+location = {Virtual Event, USA},
+series = {SIGCOMM '21}
+}
+
+
+@inproceedings {a285119,
+author = {Weiyang Wang and Moein Khazraee and Zhizhen Zhong and Manya Ghobadi and Zhihao Jia and Dheevatsa Mudigere and Ying Zhang and Anthony Kewitsch},
+title = {{TopoOpt}: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs},
+booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+year = {2023},
+isbn = {978-1-939133-33-5},
+address = {Boston, MA},
+pages = {739--767},
+url = {https://www.usenix.org/conference/nsdi23/presentation/wang-weiyang},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+
+@inproceedings {a305352,
+author = {Liangyu Zhao and Siddharth Pal and Tapan Chugh and Weiyang Wang and Jason Fantl and Prithwish Basu and Joud Khoury and Arvind Krishnamurthy},
+title = {Efficient {Direct-Connect} Topologies for Collective Communications},
+booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
+year = {2025},
+isbn = {978-1-939133-46-5},
+address = {Philadelphia, PA},
+pages = {705--737},
+url = {https://www.usenix.org/conference/nsdi25/presentation/zhao-liangyu},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+@article{kumar2025lumion,
+  title={LUMION: Fast Fault Recovery for ML Jobs Using Programmable Optical Fabrics},
+  author={Kumar, Abhishek Vijaya and Ding, Eric and Devraj, Arjun and Bunandar, Darius and Singh, Rachee},
+  journal={arXiv preprint arXiv:2505.23105},
+  year={2025},
+  url={https://arxiv.org/abs/2505.23105},
+}
+
+
+@inproceedings{10.1145/3696348.3696856,
+author = {Kumar, Abhishek Vijaya and Devraj, Arjun and Bunandar, Darius and Singh, Rachee},
+title = {A case for server-scale photonic connectivity},
+year = {2024},
+isbn = {9798400712722},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3696348.3696856},
+doi = {10.1145/3696348.3696856},
+abstract = {The commoditization of machine learning is fuelling the demand for compute required to both train large models and infer from them. At the same time, scaling the performance of individual microprocessors to satisfy the demand for compute has become increasingly difficult since the end of Moore's law and Dennard scaling. As a result, compute resources in modern servers are distributed across multiple accelerators on the server board. In this work, we make the case for using optics to interconnect accelerators within a server. A key benefit of on-board chip-to-chip optical connectivity is its ability to dynamically allocate bandwidth between accelerators, where necessary, rather than the common practice of statically dividing bandwidth among links within the topology of a multi-accelerator server, as seen in popular direct-connect architectures. This property prevents bandwidth under-utilization in state-of-the-art rack-scale multi-accelerator deployments. Moreover, server-scale optical connectivity can reduce the blast radius of individual accelerator failures in rack-scale ML deployments. Our early experiments with the prototype of a newly commercialized server-scale photonic interconnect show how the capability of the hardware can enable our vision.},
+booktitle = {Proceedings of the 23rd ACM Workshop on Hot Topics in Networks},
+pages = {290–299},
+numpages = {10},
+keywords = {Silicon photonics, collective communication, distributed machine learning, optical networks, reconfigurable networks},
+location = {Irvine, CA, USA},
+series = {HotNets '24}
+}
+
+
+
+@article{ding2025pipswitch,
+  title={PipSwitch: A Circuit Switch Using Programmable Integrated Photonics},
+  author={Ding, Eric and Singh, Rachee},
+  journal={arXiv preprint arXiv:2501.18136},
+  year={2025},
+  url={https://arxiv.org/abs/2501.18136},
+}
+
+
+@ARTICLE{a9007742,
+  author={Wade, Mark and Anderson, Erik and Ardalan, Shahab and Bhargava, Pavan and Buchbinder, Sidney and L. Davenport, Michael and Fini, John and Lu, Haiwei and Li, Chen and Meade, Roy and Ramamurthy, Chandru and Rust, Michael and Sedgwick, Forrest and Stojanovic, Vladimir and Van Orden, Derek and Zhang, Chong and Sun, Chen and Shumarayev, Sergey Y. and O'Keeffe, Conor and Hoang, Tim T. and Kehlet, David and Mahajan, Ravi V. and Guzy, Matthew T. and Chan, Allen and Tran, Tina},
+  journal={IEEE Micro}, 
+  title={TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O}, 
+  year={2020},
+  volume={40},
+  number={2},
+  pages={63-71},
+  keywords={Optical fibers;Photonics;High-speed optical techniques;Energy efficiency;Bandwidth;Packaging;optical I/O;silicon photonics;FPGA;chiplets;multi-chip package;AIB;EMIB},
+  doi={10.1109/MM.2020.2976067}}
+
+
+
+@inproceedings{10.1145/3626111.3628183,
+author = {Mani, Sathiya Kumaran and Zhou, Yajie and Hsieh, Kevin and Segarra, Santiago and Eberl, Trevor and Azulai, Eliran and Frizler, Ido and Chandra, Ranveer and Kandula, Srikanth},
+title = {Enhancing Network Management Using Code Generated by Large Language Models},
+year = {2023},
+isbn = {9798400704154},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626111.3628183},
+doi = {10.1145/3626111.3628183},
+abstract = {Analyzing network topologies and communication graphs is essential in modern network management. However, the lack of a cohesive approach results in a steep learning curve, increased errors, and inefficiencies. In this paper, we present a novel approach that enables natural-language-based network management experiences, leveraging large language models (LLMs) to generate task-specific code from natural language queries. This method addresses the challenges of explainability, scalability, and privacy by allowing network operators to inspect the generated code, removing the need to share network data with LLMs, and focusing on application-specific requests combined with program synthesis techniques. We develop and evaluate a prototype system using benchmark applications, demonstrating high accuracy, cost-effectiveness, and potential for further improvements using complementary program synthesis techniques.},
+booktitle = {Proceedings of the 22nd ACM Workshop on Hot Topics in Networks},
+pages = {196–204},
+numpages = {9},
+keywords = {Communication graphs, Graph manipulation, Large language model, Natural language processing, Network lifecycle management, Network management, Program synthesis},
+location = {Cambridge, MA, USA},
+series = {HotNets '23}
+}
+
+
+
+@inproceedings{10.1145/3626111.3628194,
+author = {Mondal, Rajdeep and Tang, Alan and Beckett, Ryan and Millstein, Todd and Varghese, George},
+title = {What do LLMs need to Synthesize Correct Router Configurations?},
+year = {2023},
+isbn = {9798400704154},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626111.3628194},
+doi = {10.1145/3626111.3628194},
+abstract = {We investigate whether Large Language Models (e.g., GPT-4) can synthesize correct router configurations with reduced manual effort. We find GPT-4 works very badly by itself, producing promising draft configurations but with egregious errors in topology, syntax, and semantics. Our strategy, that we call Verified Prompt Programming, is to combine GPT-4 with verifiers, and use localized feedback from the verifier to automatically correct errors. Verification requires a specification and actionable localized feedback to be effective. We show results for two use cases: translating from Cisco to Juniper configurations on a single router, and implementing a no-transit policy on multiple routers. While human input is still required, if we define the leverage as the number of automated prompts to the number of human prompts, our experiments show a leverage of 10X for Juniper translation, and 6X for implementing the no-transit policy, ending with verified configurations.},
+booktitle = {Proceedings of the 22nd ACM Workshop on Hot Topics in Networks},
+pages = {189–195},
+numpages = {7},
+keywords = {CoSynth, large language models (LLMs), network verification and synthesis},
+location = {Cambridge, MA, USA},
+series = {HotNets '23}
+}
+
+
+@inproceedings{10.1145/3696348.3696868,
+author = {He, Zhiyuan and Gottipati, Aashish and Qiu, Lili and Luo, Xufang and Xu, Kenuo and Yang, Yuqing and Yan, Francis Y.},
+title = {Designing Network Algorithms via Large Language Models},
+year = {2024},
+isbn = {9798400712722},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3696348.3696868},
+doi = {10.1145/3696348.3696868},
+abstract = {We introduce Nada, the first framework to autonomously design network algorithms by leveraging the generative capabilities of large language models (LLMs). Starting with an existing algorithm implementation, Nada enables LLMs to create a wide variety of alternative designs in the form of code blocks. It then efficiently identifies the top-performing designs through a series of filtering techniques, minimizing the need for full-scale evaluations and significantly reducing computational costs. Using adaptive bitrate (ABR) streaming as a case study, we demonstrate that Nada produces novel ABR algorithms---previously unknown to human developers---that consistently outperform the original algorithm in diverse network environments, including broadband, satellite, 4G, and 5G.},
+booktitle = {Proceedings of the 23rd ACM Workshop on Hot Topics in Networks},
+pages = {205–212},
+numpages = {8},
+keywords = {Large Language Models, Network Algorithms},
+location = {Irvine, CA, USA},
+series = {HotNets '24}
+}
+
+
+@article{10.1145/3656296,
+author = {Wang, Changjie and Scazzariello, Mariano and Farshin, Alireza and Ferlin, Simone and Kosti\'{c}, Dejan and Chiesa, Marco},
+title = {NetConfEval: Can LLMs Facilitate Network Configuration?},
+year = {2024},
+issue_date = {June 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {CoNEXT2},
+url = {https://doi.org/10.1145/3656296},
+doi = {10.1145/3656296},
+abstract = {This paper explores opportunities to utilize Large Language Models (LLMs) to make network configuration human-friendly, simplifying the configuration of network devices \& development of routing algorithms and minimizing errors. We design a set of benchmarks (NetConfEval) to examine the effectiveness of different models in facilitating and automating network configuration. More specifically, we focus on the scenarios where LLMs translate high-level policies, requirements, and descriptions (i.e., specified in natural language) into low-level network configurations \& Python code. NetConfEval considers four tasks that could potentially facilitate network configuration, such as (i) generating high-level requirements into a formal specification format, (ii) generating API/function calls from high-level requirements, (iii) developing routing algorithms based on high-level descriptions, and (iv) generating low-level configuration for existing and new protocols based on input documentation. Learning from the results of our study, we propose a set of principles to design LLM-based systems to configure networks. Finally, we present two GPT-4-based prototypes to (i) automatically configure P4-enabled devices from a set of high-level requirements and (ii) integrate LLMs into existing network synthesizers.},
+journal = {Proc. ACM Netw.},
+month = jun,
+articleno = {7},
+numpages = {25},
+keywords = {benchmark, code generation, function calling, large language models (llms), network configuration, network synthesizer, p4, rag, routing algorithms}
+}
+
+
+@inproceedings{NEURIPS2022_04cc90ec,
+ author = {Beurer-Kellner, Luca and Vechev, Martin and Vanbever, Laurent and Veli\v{c}kovi\'{c}, Petar},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {730--742},
+ publisher = {Curran Associates, Inc.},
+ title = {Learning to Configure Computer Networks with Neural Algorithmic Reasoning},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/04cc90ec6868b97b7423dc38ced1e35c-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
+}
+
+
+@inproceedings{NEURIPS2018_73a427ba,
+ author = {Purohit, Manish and Svitkina, Zoya and Kumar, Ravi},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Improving Online Algorithms via ML Predictions},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2018/file/73a427badebe0e32caa2e1fc7530b7f3-Paper.pdf},
+ volume = {31},
+ year = {2018}
+}
+
+
+@inproceedings {a295535,
+author = {Vamsi Addanki and Maciej Pacut and Stefan Schmid},
+title = {Credence: Augmenting Datacenter Switch Buffer Sharing with {ML} Predictions},
+booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+year = {2024},
+isbn = {978-1-939133-39-7},
+address = {Santa Clara, CA},
+pages = {613--634},
+url = {https://www.usenix.org/conference/nsdi24/presentation/addanki-credence},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+
+@inproceedings{10.1145/3651890.3672225,
+author = {Gong, Fengchen and Raghunathan, Divya and Gupta, Aarti and Apostolaki, Maria},
+title = {Zoom2Net: Constrained Network Telemetry Imputation},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672225},
+doi = {10.1145/3651890.3672225},
+abstract = {Fine-grained monitoring is crucial for multiple data-driven tasks such as debugging, provisioning, and securing networks. Yet, practical constraints in collecting, extracting, and storing data often force operators to use coarse-grained sampled monitoring, degrading the performance of the various tasks. In this work, we explore the feasibility of leveraging the correlations among coarse-grained time series to impute their fine-grained counterparts in software. We present Zoom2Net, a transformer-based model for network imputation that incorporates domain knowledge through operational and measurement constraints, ensuring that the imputed network telemetry time series are not only realistic but align with existing measurements. This approach enhances the capabilities of current monitoring infrastructures, allowing operators to gain more insights into system behaviors without the need for hardware upgrades. We evaluate Zoom2Net on four diverse datasets (e.g., cloud telemetry and Internet data transfer) and use cases (e.g., bursts analysis and traffic classification). We demonstrate that Zoom2Net consistently achieves high imputation accuracy with a zoom-in factor of up to 100 and performs better on downstream tasks compared to baselines by an average of 38\%.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {764–777},
+numpages = {14},
+keywords = {telemetry, imputation, formal methods, transformer},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+@inproceedings{10.1145/3626111.3628188,
+author = {Gong, Fengchen and Raghunathan, Divya and Gupta, Aarti and Apostolaki, Maria},
+title = {Towards Integrating Formal Methods into ML-Based Systems for Networking},
+year = {2023},
+isbn = {9798400704154},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626111.3628188},
+doi = {10.1145/3626111.3628188},
+abstract = {Owing to its adaptability and scalability, Machine Learning (ML) has gained significant momentum in the networking community. Yet, ML models can still produce outputs that contradict knowledge, i.e., established networking rules and principles. On the other hand, Formal Methods (FM) use rigorous mathematical reasoning based on knowledge, but suffer from the lack of scalability. To capitalize on the complementary strengths of both approaches, we advocate for the integration of knowledge-based FM into ML-based systems for networking problems. Through a case study, we demonstrate the benefits and limitations of using ML models or FM alone. We find that incorporating FM in the training and inference of an ML model yields not only more reliable results but also better performance in various downstream tasks. We hope that our paper inspires a tighter integration of FM-based and ML-based approaches in networking, facilitating the development of more robust and dependable systems.},
+booktitle = {Proceedings of the 22nd ACM Workshop on Hot Topics in Networks},
+pages = {48–55},
+numpages = {8},
+keywords = {Formal Methods, Imputation, Telemetry, Transformer},
+location = {Cambridge, MA, USA},
+series = {HotNets '23}
+}
+
+
+@inproceedings {a286421,
+author = {Yarin Perry and Felipe Vieira Frujeri and Chaim Hoch and Srikanth Kandula and Ishai Menache and Michael Schapira and Aviv Tamar},
+title = {{DOTE}: Rethinking (Predictive) {WAN} Traffic Engineering},
+booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+year = {2023},
+isbn = {978-1-939133-33-5},
+address = {Boston, MA},
+pages = {1557--1581},
+url = {https://www.usenix.org/conference/nsdi23/presentation/perry},
+publisher = {USENIX Association},
+month = apr
+}
+
+@inproceedings{10.1145/3651890.3672231,
+author = {Gui, Fei and Wang, Songtao and Li, Dan and Chen, Li and Gao, Kaihui and Min, Congcong and Wang, Yi},
+title = {RedTE: Mitigating Subsecond Traffic Bursts with Real-time and Distributed Traffic Engineering},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672231},
+doi = {10.1145/3651890.3672231},
+abstract = {Internet traffic bursts usually happen within a second, thus conventional burst mitigation methods ignore the potential of Traffic Engineering (TE). However, our experiments indicate that a TE system, with a sub-second control loop latency, can effectively alleviate burst-induced congestion. TE-based methods can leverage network-wide tunnel-level information to make globally informed decisions (e.g., balancing traffic bursts among multiple paths). Our insight in reducing control loop latency is to let each router make local TE decisions, but this introduces the key challenge of minimizing performance loss compared to centralized TE systems.In this paper, we present RedTE, a novel distributed TE system with a control loop latency of < 100ms, while achieving performance comparable to centralized TE systems. RedTE's innovation is the modeling of TE as a distributed cooperative multi-agent problem, and we design a novel multi-agent deep reinforcement learning algorithm to solve it, which enables each agent to make globally informed decisions solely based on local information. We implement real RedTE routers and deploy them on a WAN spanning six city datacenters. Evaluation reveals notable improvements compared to existing solutions: < 100ms of control loop latency, a 37.4\% reduction in maximum link utilization, and a 78.9\% reduction in average queue length.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {71–85},
+numpages = {15},
+keywords = {traffic engineering, network optimization, machine learning},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+@inproceedings{10.1145/3651890.3672258,
+author = {Liu, Ximeng and Zhao, Shizhen and Cui, Yong and Wang, Xinbing},
+title = {FIGRET: Fine-Grained Robustness-Enhanced Traffic Engineering},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672258},
+doi = {10.1145/3651890.3672258},
+abstract = {Traffic Engineering (TE) is critical for improving network performance and reliability. A key challenge in TE is the management of sudden traffic bursts. Existing TE schemes either do not handle traffic bursts or uniformly guard against traffic bursts, thereby facing difficulties in achieving a balance between normal-case performance and burst-case performance. To address this issue, we introduce FIGRET, a Fine-Grained Robustness-Enhanced TE scheme. FIGRET offers a novel approach to TE by providing varying levels of robustness enhancements, customized according to the distinct traffic characteristics of various source-destination pairs. By leveraging a burst-aware loss function and deep learning techniques, FIGRET is capable of generating high-quality TE solutions efficiently. Our evaluations of real-world production networks, including Wide Area Networks and data centers, demonstrate that FIGRET significantly outperforms existing TE schemes. Compared to the TE scheme currently deployed in Google's Jupiter data center networks, FIGRET achieves a 9\%-34\% reduction in average Maximum Link Utilization and improves solution speed by 35\texttimes{}-1800\texttimes{}. Against DOTE, a state-of-the-art deep learning-based TE method, FIGRET substantially lowers the occurrence of significant congestion events triggered by traffic bursts by 41\%-53.9\% in topologies with high traffic dynamics.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {117–135},
+numpages = {19},
+keywords = {traffic engineering, wide-area networks, datacenter networks, machine learning},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+@inproceedings{10.1145/3651890.3672237,
+author = {AlQiam, Abd AlRhman and Yao, Yuanjun and Wang, Zhaodong and Ahuja, Satyajeet Singh and Zhang, Ying and Rao, Sanjay G. and Ribeiro, Bruno and Tawarmalani, Mohit},
+title = {Transferable Neural WAN TE for Changing Topologies},
+year = {2024},
+isbn = {9798400706141},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3651890.3672237},
+doi = {10.1145/3651890.3672237},
+abstract = {Recently, researchers have proposed ML-driven traffic engineering (TE) schemes where a neural network model is used to produce TE decisions in lieu of conventional optimization solvers. Unfortunately existing ML-based TE schemes are not explicitly designed to be robust to topology changes that may occur due to WAN evolution, failures or planned maintenance. In this paper, we present HARP, a neural model for TE explicitly capable of handling variations in topology including those not observed in training. HARP is designed with two principles in mind: (i) ensure invariances to natural input transformations (e.g., permutations of node ids, tunnel reordering); and (ii) align neural architecture to the optimization model. Evaluations on a multi-week dataset of a large private WAN show HARP achieves an MLU at most 11\% higher than optimal over 98\% of the time despite encountering significantly different topologies in testing relative to training data. Further, comparisons with state-of-the-art ML-based TE schemes indicate the importance of the mechanisms introduced by HARP to handle topology variability. Finally, when predicted traffic matrices are provided, HARP outperforms classic optimization solvers achieving a median reduction in MLU of 5 to 10\% on the true traffic matrix.},
+booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
+pages = {86–102},
+numpages = {17},
+keywords = {traffic engineering, wide-area networks, network optimization, machine learning},
+location = {Sydney, NSW, Australia},
+series = {ACM SIGCOMM '24}
+}
+
+
+
+@inproceedings{10.1145/3387514.3405892,
+author = {Abbasloo, Soheil and Yen, Chen-Yu and Chao, H. Jonathan},
+title = {Classic Meets Modern: a Pragmatic Learning-Based Congestion Control for the Internet},
+year = {2020},
+isbn = {9781450379557},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3387514.3405892},
+doi = {10.1145/3387514.3405892},
+abstract = {These days, taking the revolutionary approach of using clean-slate learning-based designs to completely replace the classic congestion control schemes for the Internet is gaining popularity. However, we argue that current clean-slate learning-based techniques bring practical issues and concerns such as overhead, convergence issues, and low performance over unseen network conditions to the table. To address these issues, we take a pragmatic and evolutionary approach combining classic congestion control strategies and advanced modern deep reinforcement learning (DRL) techniques and introduce a novel hybrid congestion control for the Internet named Orca1. Through extensive experiments done over global testbeds on the Internet and various locally emulated network conditions, we demonstrate that Orca is adaptive and achieves consistent high performance in different network conditions, while it can significantly alleviate the issues and problems of its clean-slate learning-based counterparts.},
+booktitle = {Proceedings of the Annual Conference of the ACM Special Interest Group on Data Communication on the Applications, Technologies, Architectures, and Protocols for Computer Communication},
+pages = {632–647},
+numpages = {16},
+keywords = {Congestion Control, Deep Reinforcement Learning, TCP},
+location = {Virtual Event, USA},
+series = {SIGCOMM '20}
+}
+
+
+@inproceedings{10.1145/2486001.2486020,
+author = {Winstein, Keith and Balakrishnan, Hari},
+title = {TCP ex machina: computer-generated congestion control},
+year = {2013},
+isbn = {9781450320566},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2486001.2486020},
+doi = {10.1145/2486001.2486020},
+abstract = {This paper describes a new approach to end-to-end congestion control on a multi-user network. Rather than manually formulate each endpoint's reaction to congestion signals, as in traditional protocols, we developed a program called Remy that generates congestion-control algorithms to run at the endpoints.In this approach, the protocol designer specifies their prior knowledge or assumptions about the network and an objective that the algorithm will try to achieve, e.g., high throughput and low queueing delay. Remy then produces a distributed algorithm---the control rules for the independent endpoints---that tries to achieve this objective.In simulations with ns-2, Remy-generated algorithms outperformed human-designed end-to-end techniques, including TCP Cubic, Compound, and Vegas. In many cases, Remy's algorithms also outperformed methods that require intrusive in-network changes, including XCP and Cubic-over-sfqCoDel (stochastic fair queueing with CoDel for active queue management). Remy can generate algorithms both for networks where some parameters are known tightly a priori, e.g. datacenters, and for networks where prior knowledge is less precise, such as cellular networks. We characterize the sensitivity of the resulting performance to the specificity of the prior knowledge, and the consequences when real-world conditions contradict the assumptions supplied at design-time.},
+booktitle = {Proceedings of the ACM SIGCOMM 2013 Conference on SIGCOMM},
+pages = {123–134},
+numpages = {12},
+keywords = {computer-designed algorithms, congestion control},
+location = {Hong Kong, China},
+series = {SIGCOMM '13}
+}
+
+@inproceedings {a306039,
+author = {Neil Agarwal and Rui Pan and Francis Y. Yan and Ravi Netravali},
+title = {Mowgli: Passively Learned Rate Control for {Real-Time} Video},
+booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
+year = {2025},
+isbn = {978-1-939133-46-5},
+address = {Philadelphia, PA},
+pages = {579--594},
+url = {https://www.usenix.org/conference/nsdi25/presentation/agarwal},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+@inproceedings{dong2015pcc,
+  title={$\{$PCC$\}$: Re-architecting congestion control for consistent high performance},
+  author={Dong, Mo and Li, Qingxi and Zarchy, Doron and Godfrey, P Brighten and Schapira, Michael},
+  booktitle={12th USENIX Symposium on Networked Systems Design and Implementation (NSDI 15)},
+  pages={395--408},
+  year={2015},
+  url={https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-dong.pdf},
+}
+
+
+@inproceedings {a211245,
+author = {Mo Dong and Tong Meng and Doron Zarchy and Engin Arslan and Yossi Gilad and Brighten Godfrey and Michael Schapira},
+title = {{PCC} Vivace: {Online-Learning} Congestion Control},
+booktitle = {15th USENIX Symposium on Networked Systems Design and Implementation (NSDI 18)},
+year = {2018},
+isbn = {978-1-939133-01-4},
+address = {Renton, WA},
+pages = {343--356},
+url = {https://www.usenix.org/conference/nsdi18/presentation/dong},
+publisher = {USENIX Association},
+month = apr
+}
+
+
+@article{shoeybi2019megatron,
+  title={Megatron-lm: Training multi-billion parameter language models using model parallelism},
+  author={Shoeybi, Mohammad and Patwary, Mostofa and Puri, Raul and LeGresley, Patrick and Casper, Jared and Catanzaro, Bryan},
+  journal={arXiv preprint arXiv:1909.08053},
+  year={2019}
+}
+
+
+@inproceedings{10.1145/3458817.3476209,
+author = {Narayanan, Deepak and Shoeybi, Mohammad and Casper, Jared and LeGresley, Patrick and Patwary, Mostofa and Korthikanti, Vijay and Vainbrand, Dmitri and Kashinkunti, Prethvi and Bernauer, Julie and Catanzaro, Bryan and Phanishayee, Amar and Zaharia, Matei},
+title = {Efficient large-scale language model training on GPU clusters using megatron-LM},
+year = {2021},
+isbn = {9781450384421},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3458817.3476209},
+doi = {10.1145/3458817.3476209},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+articleno = {58},
+numpages = {15},
+location = {St. Louis, Missouri},
+series = {SC '21}
+}
+
+
+
+@article{thoppilan2022lamda,
+  title={Lamda: Language models for dialog applications},
+  author={Thoppilan, Romal and De Freitas, Daniel and Hall, Jamie and Shazeer, Noam and Kulshreshtha, Apoorv and Cheng, Heng-Tze and Jin, Alicia and Bos, Taylor and Baker, Leslie and Du, Yu and others},
+  journal={arXiv preprint arXiv:2201.08239},
+  year={2022}
+}
+
+@inproceedings{NEURIPS2020_1457c0d6,
+ author = {Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel and Wu, Jeffrey and Winter, Clemens and Hesse, Chris and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+ pages = {1877--1901},
+ publisher = {Curran Associates, Inc.},
+ title = {Language Models are Few-Shot Learners},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf},
+ volume = {33},
+ year = {2020}
+}

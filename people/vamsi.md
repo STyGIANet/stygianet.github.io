@@ -75,5 +75,4 @@ Prior to joining Purdue in fall 2025, I completed my PhD at [TU Berlin](https://
 
 **Research Interests:** I am broadly interested in network topologies; congestion control and network flow problems; online algorithms and competitive analysis; buffer requirements and management; and related areas. My interests are mainly at the intersection of networking theory and systems.
 
-
 </section>
