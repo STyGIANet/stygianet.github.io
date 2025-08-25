@@ -35,7 +35,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
 ## Tentative Schedule
 
 <div class="table-responsive">
-  <table class="table table-striped table-bordered align-middle">
+  <table class="table table-striped table-bordered align-middle" >
     <thead class="table-dark">
       <tr>
         <th scope="col" style="width:5rem;">Week</th>

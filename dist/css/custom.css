@@ -1,4 +1,12 @@
 /* For the mobile page navigation bar button*/
+.sticky-nav {
+      align-items: center;
+      position:fixed;
+      top:0;
+      width: 100%;
+      z-index: 99999999;
+  }
+
 .navbar-toggler {
     border: 0;
 }
