@@ -1,5 +1,5 @@
 - name: Vamsi Addanki
-  website: https://vamsiaddanki.net
+  website: /people/vamsi
   scholar: https://scholar.google.com/citations?user=kPHujawAAAAJ&hl=en
   note: Asst. Professor
   image: /images/team/vamsi.jpg
@@ -10,13 +10,7 @@
   note: PhD Student
   image: 
 
-- name: Mahir Rehman
-  website:
-  scholar:
-  note: PhD Student
-  image: 
-
-- name: Eliezer Amponsah
+- name: Mahir Rahman
   website:
   scholar:
   note: PhD Student
@@ -28,8 +22,14 @@
   note: MS. Student
   image: 
 
+- name: Eliezer Amponsah
+  website:
+  scholar:
+  note: PhD Student
+  image:
+
 - name: Samuel S Youssef
   website:
   scholar:
   note: PhD Student
-  image: 
+  image:
