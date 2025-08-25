@@ -65,11 +65,13 @@ title: "Vamsi Addanki"
 </aside>
 
 <!-- CENTER: main member content -->
-<section class="col-12 col-lg-9" markdown="1">
+<section class="col-12 col-lg-8" markdown="1" style="text-align: justify; hyphens: auto;">
 
 # Bio
 
-I am a final year doctoral candidate at [TU Berlin](https://www.tu.berlin/en/) under the supervision of [Prof. Stefan Schmid](https://schmiste.github.io/). I obtained MSc in Computer Science (Specialization in Networks) at Sorbonne University in Paris, France in 2020. I did my Master's thesis at ETH Zurich under the supervision of Prof. Laurent Vanbever. From 2017 to 2019, I worked as a research engineer at Telecom Paris under the supervision of Prof. Dario Rossi and Prof. Luigi Iannone. I completed Bachelor of Engineering (B.E) studies in 2017 at Birla Institute of Technology and Science, Goa Campus, India.
+I am a tenure-track (assistant) professor at Purdue University. My research lies at the intersection of systems and theory, with a current focus on programmable photonic interconnects, scale-up GPU networks, and learning-augmented network algorithms.
+
+Prior to joining Purdue in fall 2025, I completed my PhD at [TU Berlin](https://www.tu.berlin/en/) under the supervision of [Prof. Stefan Schmid](https://schmiste.github.io/). I obtained MSc in Computer Science (Specialization in Networks) at Sorbonne University in Paris, France in 2020. I did my Master's thesis at ETH Zurich under the supervision of Prof. Laurent Vanbever. From 2017 to 2019, I worked as a research engineer at Telecom Paris under the supervision of Prof. Dario Rossi and Prof. Luigi Iannone. I completed Bachelor of Engineering (B.E) studies in 2017 at Birla Institute of Technology and Science, Goa Campus, India.
 
 **Research Interests:** I am broadly interested in network topologies; congestion control and network flow problems; online algorithms and competitive analysis; buffer requirements and management; and related areas. My interests are mainly at the intersection of networking theory and systems.
 
