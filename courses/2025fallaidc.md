@@ -48,7 +48,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
     <tbody>
       <!-- Warmup -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Warmup!</th>
+        <th colspan="5" class="text-center"><h4>Warmup!</h4></th>
       </tr>
       <tr>
         <td>1</td>
@@ -66,7 +66,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- LLM Training Architectures -->
       <tr>
-        <th colspan="5" class="text-center table-primary">LLM Training Architectures (Hyperscaler Experience)</th>
+        <th colspan="5" class="text-center"><h4>LLM Training Architectures (Hyperscaler Experience)</h4></th>
       </tr>
       <tr>
         <td>2</td>
@@ -84,7 +84,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Collective Communication I -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Collective Communication I: Primitives &amp; AllReduce</th>
+        <th colspan="5" class="text-center"><h4>Collective Communication I: Primitives &amp; AllReduce</h4></th>
       </tr>
       <tr>
         <td>3</td>
@@ -102,7 +102,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Collective Communication II -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Collective Communication II: Synthesis</th>
+        <th colspan="5" class="text-center"><h4>Collective Communication II: Synthesis</h4></th>
       </tr>
       <tr>
         <td>4</td>
@@ -120,7 +120,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Collective Communication III -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Collective Communication III: Stragglers</th>
+        <th colspan="5" class="text-center"><h4>Collective Communication III: Stragglers</h4></th>
       </tr>
       <tr>
         <td>5</td>
@@ -141,7 +141,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Photonic Interconnects I -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Photonic Interconnects I: Oblivious &amp; Traffic-Aware</th>
+        <th colspan="5" class="text-center"><h4>Photonic Interconnects I: Oblivious &amp; Traffic-Aware</h4></th>
       </tr>
       <tr>
         <td>6</td>
@@ -159,7 +159,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Photonic Interconnects II -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Photonic Interconnects II: TPU Clusters</th>
+        <th colspan="5" class="text-center"><h4>Photonic Interconnects II: TPU Clusters</h4></th>
       </tr>
       <tr>
         <td>7</td>
@@ -177,7 +177,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Photonic Interconnects III -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Photonic Interconnects III: Topologies for Collectives</th>
+        <th colspan="5" class="text-center"><h4>Photonic Interconnects III: Topologies for Collectives</h4></th>
       </tr>
       <tr>
         <td>8</td>
@@ -198,7 +198,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Photonic Interconnects IV -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Photonic Interconnects IV: Chip-to-Chip</th>
+        <th colspan="5" class="text-center"><h4>Photonic Interconnects IV: Chip-to-Chip</h4></th>
       </tr>
       <tr>
         <td>9</td>
@@ -214,7 +214,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- AI for Networks I -->
       <tr>
-        <th colspan="5" class="text-center table-primary">AI for Networks I: LLMs &amp; Fun Stuff</th>
+        <th colspan="5" class="text-center"><h4>AI for Networks I: LLMs &amp; Fun Stuff</h4></th>
       </tr>
       <tr>
         <td>10</td>
@@ -232,7 +232,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- AI for Networks II -->
       <tr>
-        <th colspan="5" class="text-center table-primary">AI for Networks II: Performance Guarantees</th>
+        <th colspan="5" class="text-center"><h4>AI for Networks II: Performance Guarantees</h4></th>
       </tr>
       <tr>
         <td>11</td>
@@ -250,7 +250,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- AI for Networks III -->
       <tr>
-        <th colspan="5" class="text-center table-primary">AI for Networks III: Wide-Area Networks</th>
+        <th colspan="5" class="text-center"><h4>AI for Networks III: Wide-Area Networks</h4></th>
       </tr>
       <tr>
         <td>12</td>
@@ -268,7 +268,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- AI for Networks IV -->
       <tr>
-        <th colspan="5" class="text-center table-primary">AI for Networks IV: Congestion Control</th>
+        <th colspan="5" class="text-center"><h4>AI for Networks IV: Congestion Control</h4></th>
       </tr>
       <tr>
         <td>13</td>
@@ -289,7 +289,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Thanksgiving -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Thanksgiving Break</th>
+        <th colspan="5" class="text-center"><h4>Thanksgiving Break</h4></th>
       </tr>
       <tr>
         <td>14</td>
@@ -303,7 +303,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Projects & Feedback -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Projects &amp; Feedback</th>
+        <th colspan="5" class="text-center"><h4>Projects &amp; Feedback</h4></th>
       </tr>
       <tr>
         <td>15</td>
@@ -317,7 +317,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <!-- Finals -->
       <tr>
-        <th colspan="5" class="text-center table-primary">Finals Week</th>
+        <th colspan="5" class="text-center"><h4>Finals Week</h4></th>
       </tr>
       <tr>
         <td>16</td>
