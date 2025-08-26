@@ -14,6 +14,7 @@ scholar:
 **Instructor:** [Vamsi Addanki](/people/vamsi)  
 **Department:** Computer Science, Purdue University  
 **Semester:** Fall 2025  
+**Location:** LWSN B134  
 **Credit hours:** 3  
 **Email:** vaddank@purdue.edu  
 
@@ -53,7 +54,11 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       <tr>
         <td>1</td>
         <td>Aug 27</td>
-        <td>Introduction</td>
+        <td>
+        Introduction
+        <i class="bi bi-file-earmark-slides me-1"></i>
+        <a href="/courses/2025fallaidc/AI-DC-Networking-Intro.pdf">Slides</a>
+        </td>
         <td>All</td>
         <td>–</td>
       </tr>
