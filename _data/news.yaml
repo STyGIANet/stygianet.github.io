@@ -1,2 +1,18 @@
-- news: Website launched!
-  date: 24-Aug-2025
+- news: Deeksha joins STyGIANet. Welcome!
+  date: 25-Aug-2025
+  image:
+  icon: person-square
+  alt: Deeksha P. Rao
+
+- news: Mahir joins STyGIANet. Welcome!
+  date: 20-Aug-2025
+  image:
+  icon: person-square
+  alt: Mahir Rahman
+
+- news: Vamsi joins Purdue CS as Assistant Professor!
+  date: 18-Aug-2025
+  image: vamsinews
+  alt: Vamsi Purdue
+  description: Vamsi joins the Computer Science Department as an Assistant Professor on August 18th, 2025. He will lead the STyGIANet lab to build the next generation intelligent and adaptive networks.
+

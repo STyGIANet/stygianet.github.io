@@ -103,9 +103,29 @@
 /* END:  For dropdown animation */
 
 
+/* Optional: soften the table look */
+.table-striped > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.table-news tr {
+  border-bottom: 0.8px solid #aaa; /* light gray */
+}
+.table-news tr:last-child {
+  border-bottom: none; /* no border after last row */
+}
+
+
+
+
 #styglogo {
   content: url("/images/logo-light-transparent.png");
 }
 [data-bs-theme="dark"] #styglogo {
   content: url("/images/logo-dark-transparent.png");
+}
+
+
+#vamsinews{
+    content: url("/images/team/vamsi.jpg");
 }

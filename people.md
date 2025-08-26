@@ -44,7 +44,7 @@ title: People
           <div class="d-flex justify-content-center gap-1 small">
           	<i class="bi bi-globe"></i>
             <a
-              class="{% if p.website %}link-underline link-underline-opacity-1{% else %}disabled text-secondary text-decoration-none{% endif %}"
+              class="me-1 {% if p.website %}link-underline link-underline-opacity-1{% else %}disabled text-secondary text-decoration-none{% endif %}"
               {% if p.website %}href="{{ p.website }}"{% else %}tabindex="-1" aria-disabled="true"{% endif %}>
               Website
             </a>
