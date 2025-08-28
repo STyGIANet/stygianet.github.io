@@ -15,6 +15,7 @@ scholar:
 **Department:** Computer Science, Purdue University  
 **Semester:** Fall 2025  
 **Location:** LWSN B134  
+**Time:** TR 3:00PM - 4:15PM  
 **Credit hours:** 3  
 **Email:** vaddank@purdue.edu  
 
@@ -53,7 +54,7 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>1</td>
-        <td>Aug 27</td>
+        <td>Aug 26</td>
         <td>
         Introduction
         <i class="bi bi-file-earmark-slides me-1"></i>
@@ -64,9 +65,9 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>1</td>
-        <td>Aug 29</td>
+        <td>Aug 28</td>
         <td>How to read a paper {% cite 10.1145/1273445.1273458 --file ai-dc-seminar-2025.bib %}</td>
-        <td>[Student]</td>
+        <td>All/Discussion</td>
         <td>{% cite roscoe2007writing henning --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <!-- LLM Training Architectures -->
@@ -75,14 +76,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>2</td>
-        <td>Sep 3</td>
+        <td>Sep 2</td>
         <td>RDMA over Ethernet for Distributed Training at Meta Scale {% cite 10.1145/3651890.3672233 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite 10.1145/2934872.2934908 a9238637 a10158106 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>2</td>
-        <td>Sep 5</td>
+        <td>Sep 4</td>
         <td>Alibaba HPN: A Data Center Network for LLM Training {% cite 10.1145/3651890.3672265 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite a305348 a10.1145/3696348.3696893 --file ai-dc-seminar-2025.bib %}</td>
@@ -93,14 +94,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>3</td>
-        <td>Sep 10</td>
+        <td>Sep 09</td>
         <td>Optimization of Collective Communication in MPICH {% cite doi:10.1177/1094342005051521 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite https://doi.org/10.1002/cpe.1206 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>3</td>
-        <td>Sep 12</td>
+        <td>Sep 11</td>
         <td>Swing: Short-cutting Rings for Higher Bandwidth AllReduce {% cite a295653 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite kolmakov2020generalization --file ai-dc-seminar-2025.bib %}</td>
@@ -111,14 +112,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>4</td>
-        <td>Sep 17</td>
+        <td>Sep 16</td>
         <td>Synthesizing Optimal Collective Algorithms {% cite 10.1145/3437801.3441620 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite MLSYS2020_cd3a9a55 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>4</td>
-        <td>Sep 19</td>
+        <td>Sep 18</td>
         <td>Collectives as Multi-Commodity Flow {% cite 10.1145/3651890.3672249 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite a285084 a305967 --file ai-dc-seminar-2025.bib %}</td>
@@ -129,14 +130,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>5</td>
-        <td>Sep 24</td>
+        <td>Sep 23</td>
         <td>Accelerating AllReduce with a Persistent Straggler {% cite devraj2025accelerating --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite 10.1145/2987550.2987554 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>5</td>
-        <td>Sep 26</td>
+        <td>Sep 25</td>
         <td>OptiReduce: Tail-Optimal AllReduce {% cite a305995 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite NIPS2017_663772ea cipar2013solving --file ai-dc-seminar-2025.bib %}</td>
@@ -150,14 +151,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>6</td>
-        <td>Oct 1</td>
+        <td>Sept 30</td>
         <td>RotorNet {% cite 10.1145/3098822.3098838 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite 10.1145/3651890.3672273 10.1145/3387514.3406221 10.1145/3579312 10.1145/3651890.3672248 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>6</td>
-        <td>Oct 3</td>
+        <td>Oct 2</td>
         <td>Scheduling in Hybrid Networks {% cite 10.1145/2716281.2836126 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite 10.1145/2486001.2486007 10.1145/1851182.1851223 10.1145/2934872.2934911 10.1145/3651890.3672222 --file ai-dc-seminar-2025.bib %}</td>
@@ -168,14 +169,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>7</td>
-        <td>Oct 8</td>
+        <td>Oct 7</td>
         <td>TPU v4 Supercomputer {% cite 10.1145/3579371.3589350 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite a10254691 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>7</td>
-        <td>Oct 10</td>
+        <td>Oct 09</td>
         <td>Resiliency at Scale: TPUv4 {% cite a295551 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite a10.1145/3544216.3544265 --file ai-dc-seminar-2025.bib %}</td>
@@ -186,14 +187,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>8</td>
-        <td>Oct 15</td>
+        <td>Oct 14</td>
         <td>SiP-ML {% cite 10.1145/3452296.3472900 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite a305352 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>8</td>
-        <td>Oct 17</td>
+        <td>Oct 16</td>
         <td>TopoOpt {% cite a285119 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite kumar2025lumion --file ai-dc-seminar-2025.bib %}</td>
@@ -207,14 +208,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>9</td>
-        <td>Oct 22</td>
+        <td>Oct 21</td>
         <td>Server-Scale Photonic Connectivity {% cite 10.1145/3696348.3696856 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite ding2025pipswitch a9007742 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>9</td>
-        <td>Oct 24</td>
+        <td>Oct 23</td>
         <td colspan="3" class="fw-semibold">Midterm Examination</td>
       </tr>
       <!-- AI for Networks I -->
@@ -223,14 +224,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>10</td>
-        <td>Oct 29</td>
+        <td>Oct 28</td>
         <td>Enhancing Network Management Using Code Generated by LLMs {% cite 10.1145/3626111.3628183 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite NEURIPS2022_04cc90ec --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>10</td>
-        <td>Oct 31</td>
+        <td>Oct 30</td>
         <td>What do LLMs need to Synthesize Correct Router Configurations? {% cite 10.1145/3626111.3628194 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite 10.1145/3696348.3696868 10.1145/3656296 --file ai-dc-seminar-2025.bib %}</td>
@@ -241,14 +242,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>11</td>
-        <td>Nov 5</td>
+        <td>Nov 4</td>
         <td>Credence: Augmenting Switch Buffer Sharing with ML Predictions {% cite a295535 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite NEURIPS2018_73a427ba --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>11</td>
-        <td>Nov 7</td>
+        <td>Nov 6</td>
         <td>Towards Integrating Formal Methods into ML-Based Systems {% cite 10.1145/3626111.3628188 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite 10.1145/3651890.3672225 --file ai-dc-seminar-2025.bib %}</td>
@@ -259,14 +260,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>12</td>
-        <td>Nov 12</td>
+        <td>Nov 11</td>
         <td>DOTE: Rethinking (Predictive) WAN Traffic Engineering {% cite a286421 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite 10.1145/3651890.3672231 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>12</td>
-        <td>Nov 14</td>
+        <td>Nov 13</td>
         <td>Transferable Neural WAN TE for Changing Topologies {% cite 10.1145/3651890.3672237 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite 10.1145/3651890.3672258 --file ai-dc-seminar-2025.bib %}</td>
@@ -277,14 +278,14 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>13</td>
-        <td>Nov 19</td>
+        <td>Nov 18</td>
         <td>TCP ex Machina {% cite 10.1145/2486001.2486020 --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite a306039 --file ai-dc-seminar-2025.bib %}</td>
       </tr>
       <tr>
         <td>13</td>
-        <td>Nov 21</td>
+        <td>Nov 20</td>
         <td>PCC: Re-architecting Congestion Control {% cite dong2015pcc --file ai-dc-seminar-2025.bib %}</td>
         <td>[Student]</td>
         <td>{% cite a211245 --file ai-dc-seminar-2025.bib %}</td>
@@ -298,12 +299,12 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>14</td>
-        <td>Nov 26</td>
+        <td>Nov 25</td>
         <td colspan="3">–</td>
       </tr>
       <tr>
         <td>14</td>
-        <td>Nov 28</td>
+        <td>Nov 27</td>
         <td colspan="3">–</td>
       </tr>
       <!-- Projects & Feedback -->
@@ -312,12 +313,12 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>15</td>
-        <td>Dec 3</td>
+        <td>Dec 2</td>
         <td colspan="3">Project submissions due next week</td>
       </tr>
       <tr>
         <td>15</td>
-        <td>Dec 5</td>
+        <td>Dec 4</td>
         <td colspan="3">Project submissions due next week</td>
       </tr>
       <!-- Finals -->
@@ -326,12 +327,12 @@ This seminar-style course will cover a range of topics, including: datacenter ne
       </tr>
       <tr>
         <td>16</td>
-        <td>Dec 10</td>
+        <td>Dec 09</td>
         <td colspan="3">Final Presentations (All)</td>
       </tr>
       <tr>
         <td>16</td>
-        <td>Dec 12</td>
+        <td>Dec 11</td>
         <td colspan="3">Final Presentations (All)</td>
       </tr>
     </tbody>
