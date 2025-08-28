@@ -71,7 +71,7 @@ At STyGIANet, we take a systems-driven yet theory-grounded approach:
               <img id="{{ newsitem.image }}"
                    alt="{{ newsitem.alt | default: 'News image' }}"
                    class="w-100 h-100"
-                   style="object-fit: contain;">
+                   style="object-fit: contain; object-position: top;">
             {% else %}
               <div class="d-flex w-100 h-100 align-items-center justify-content-center bg-body-secondary">
                 <i class="bi bi-{{ newsitem.icon | default: 'journal-bookmark' }} fs-1"></i>

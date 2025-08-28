@@ -27,7 +27,7 @@ title: People
         <!-- Avatar -->
         <div class="mx-auto avatar-wrap rounded-3 overflow-hidden">
           {% if p.image %}
-            <img src="{{ p.image }}" alt="{{ p.name }}" class="w-100 h-100 of-cover">
+            <img src="{{ p.image }}" alt="{{ p.name }}" class="w-100 h-100" style="object-fit: cover; object-position: top;">
           {% else %}
             <div class="avatar-placeholder d-flex align-items-center justify-content-center w-100 h-100">
               <i class="bi bi-person-square"></i>
